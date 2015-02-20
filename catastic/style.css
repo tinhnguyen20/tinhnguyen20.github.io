@@ -6,10 +6,9 @@
 	margin-top: 30px;
 }
 
-#video{
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%;
-	text-align: center;
-
+#palm_tree {
+	position: fixed;
+	bottom: 1;
+	right: 1;
 }
+
