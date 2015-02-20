@@ -1,0 +1,14 @@
+#header {
+	font-size: 30px;
+	color: #FFCCFF;
+	font-family: "Courier New";
+	text-align: center;
+	margin-top: 30px;
+}
+
+#palm_tree {
+	position: fixed;
+	bottom: 1;
+	right: 1;
+}
+
