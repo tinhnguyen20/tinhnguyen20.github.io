@@ -6,20 +6,28 @@ html, body{
     background: #E1E1E1;
 }
 
+#nav_link{
+    color:#E6E6E6;
+    text-align:center;
+    padding:20px;
+    font-family: "Lato", sans-serif;
+    font-weight:300;
+    font-size: 20px;
+}
+
 
 #tile1{
     color:black;
     float: left;
     margin-left: 22px;
-    width: 26.5%;
+    width: 30%;
     height: 150px;
-    background:#FCFCFC;
-    padding: 10px;
+    background:#E1E1E1;
 
 }
 
 #tile1_text{
-    font-size: 13px;
+    font-size: 15px;
     color:#323232;
     font-family: "Lato", sans-serif;
     }
@@ -51,8 +59,8 @@ html, body{
 }
 
 #container {
-    width:800px;
-    height: 800px;
+    width:850px;
+    height: 300px;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 40px;
@@ -73,17 +81,23 @@ html, body{
 
 #nav_bar_column{
     float:left;
-    width: 30%;
+    width: 30.5%;
     height: 20px;
     padding: 10px;
     
 }
 
-a{
-    color:#E6E6E6;
-    text-align:center;
+
+
+#about_me_block{
+    width:700px;
     padding:20px;
-    font-family: "Lato", sans-serif;
-    font-weight:300;
-    font-size: 20px;
+    height:250px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #E1E1E1;
+}
+
+a:visited {
+ color:black;
 }
