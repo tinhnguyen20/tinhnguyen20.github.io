@@ -14,7 +14,10 @@
 		<div id="banner">
 			<div id="text_container_header">
 				<center><img src="res/profile_pic.png" alt="portrait" style="width:120px; height:120px; margin-top:10px"></center>
-		    	<a href="index.html" ><p id="title" style="color:#E6E6E6">Tinh Nguyen</p></a>
+				<!-- NOTE: Need to use JS to change animation 
+				Tinh Nguyen -> About Me
+				 -->
+		    	<a id="title" style="color:#E6E6E6" href="index.html" onmouseover="this.innerHTML = 'About Me'" onmouseout="this.innerHTML = 'Tinh Nguyen'">Tinh Nguyen</a>		    	
 		    	<p id="subtitle" style="color:#E6E6E6">Programmer. Hacker. Student</p>
 			</div>
 
