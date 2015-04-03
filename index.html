@@ -3,18 +3,36 @@
     <head>
         <title>Tinh Nguyen</title>
         <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="buttons/elegant-buttons.css">
         <link rel="icon" type="image/jpg" href="res/palm_tree.jpg">
-        <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+        <!-- Unused fonts, -->
+        <!--<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>-->
         <!--<link href='http://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>-->
     </head>
 
 	<body>
 		<div id="banner">
 			<div id="text_container_header">
-		    	<h1>Tinh Nguyen</h1>
-		    	<p>Programmer. Hacker. Student</p>
+				<center><img src="res/profile_pic.png" alt="portrait" style="width:120px; height:120px; margin-top:10px"></center>
+		    	<a href="index.html" ><p id="title" style="color:#E6E6E6">Tinh Nguyen</p></a>
+		    	<p id="subtitle" style="color:#E6E6E6">Programmer. Hacker. Student</p>
 			</div>
 
+			<div id="nav_bar">
+				<div id="nav_bar_column">
+					<a id="nav_link" class="elegant-button-big green" style="color:#E6E6E6" href="http://github.com/tinhnguyen20">GitHub</a>
+				</div>
+				<div id="nav_bar_column">
+					<a id="nav_link" class="elegant-button-big green" style="color:#E6E6E6" href="http://linkedin.com/in/tinhnguyenucb" style="text-align">LinkedIn</a>
+				</div>
+				<div id="nav_bar_column">
+					<a id="nav_link" class="elegant-button-big green" style="color:#E6E6E6" href="https://berkeley.box.com/s/5vupdptc29ee4w22qo8xa8h5trct5bw6">Resume</a>
+				</div>
+				<div id="nav_bar_column">
+					<a id="nav_link" class="elegant-button-big green" style="color:#E6E6E6" href="projects.html">Projects</a>
+				</div>
+			</div>
+			<!--
 			<div id="nav_bar">
 				<div id="nav_bar_column">
 					<a id="nav_link" href="http://github.com/tinhnguyen20">GitHub</a>
@@ -25,52 +43,28 @@
 				<div id="nav_bar_column">
 					<a id="nav_link" href="https://berkeley.box.com/s/5vupdptc29ee4w22qo8xa8h5trct5bw6">Resume</a>
 				</div>
+				<div id="nav_bar_column">
+					<a id="nav_link" href="projects.html">Projects</a>
+				</div>
 			</div>
+		-->
 		</div>
 
 
 
 		<div id="container">
-			<!--- Adding about me block-->
-			<!---
-			<div id="about_me_block">
-				<div id="about_me_text">
-					<p align="justify"> I am student attending the University of 
-						California at Berkeley, majoring in Computer Science. I like
-						exploring web, mobile and machine learning applications.</p>
+			<div id="about_me_container">
+				<div id="about_me_title">
+					<p style="font-size: 130%">About me</p>
 				</div>
-			</div>
-		-->
+				<hr width="1" size="195" style="float: left">
+				<div id="about_me_text">
+					<p id="about_me" align="justify"> I am currently a student studying Computer Science at UC Berkeley. </p>
 
-			<div id="tile_container">
-				<div id="tile1">
-					<div id="tile1_text">
-							<h1>
-								<a href="">About Me</a>
-							</h1>
-						    <p align="justify">I am a student attending the University of 
-						California at Berkeley majoring in Computer Science. I like
-						exploring web, mobile and machine learning applications.</p>
-					</div>
-				</div> 
-				<div id="tile1">
-					<div id="tile1_text">
-						<h1>
-							<a href="">My Projects</a>
-						</h1>
-					    <p align="left">Check out my current and past projects.</p>
+					<p id="about_me" align="justify">Recently, I have been diving into Machine Learning through Stanford's online course hosted on Coursera. I still, however, develop and exploring web and mobile apps in my free time.</p>
 
-					</div>
-				</div> 
-				<div id="tile1">
-					<div id="tile1_text">
-							<h1>
-						    <a href="">My Movies</a>
-						</h1>
-						    <p align="justify">I put together a few videos of my past vacations. Check them out here.</p>
-					</div>
-				</div> 
-				
+					<p id="about_me" align="justify">This summer I will be working on Quadrotors and a Speed Reader (deployed on Android) . Contact me if you are interested in working with me! </p>
+				</div>
 			</div>
 		</div> <!-- #/container -->
 	</body>
