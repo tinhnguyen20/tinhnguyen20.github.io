@@ -1,0 +1,19 @@
+/* Holds all everything below */
+#project_container{
+    height:200px;
+}
+
+#project_description_text{
+    font-size: 110%;
+}
+
+#project_name{
+    float:left;
+    width: 22%;
+}
+#project_description_container{
+    float:right;
+    width: 75%;
+}
+
+

@@ -26,6 +26,12 @@
   outline: 2px solid #2ecc71;
   color: #2ecc71;
 }
+
+.green_current_page {
+  color: #ffffff;
+  background-color: #2ecc71;
+  outline: 2px solid #2ecc71;
+}
 .green:hover {
   color: #ffffff;
   background-color: #2ecc71;
