@@ -9,11 +9,13 @@
 
 #project_name{
     float:left;
-    width: 22%;
+    width: 25%;
+    color: #1A7991;
 }
 #project_description_container{
     float:right;
-    width: 75%;
+    width: 73%;
+    text-align: justify;
 }
 
 

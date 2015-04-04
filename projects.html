@@ -14,15 +14,15 @@
 	<body>
 		<div id="banner">
 			<div id="text_container_header">
-				<center><img src="res/profile_pic.png" alt="portrait" style="width:120px; height:120px; margin-top:10px"></center>
+				<center><img src="res/profile_pic.png" alt="portrait" style="width:120px; height:120px; margin-top:35px; margin-bottom:20px"></center>
 				<!-- NOTE: Need to use JS to change animation 
 				Tinh Nguyen -> About Me
 				 -->
-		    	<a id="title" style="color:#E6E6E6" href="index.html" onmouseover="this.innerHTML = 'About Me'" onmouseout="Tinh Nguyen">Tinh Nguyen</a>
+		    	<a id="title" style="color:#E6E6E6" href="index.html" onmouseover="this.innerHTML = 'About Me'" onmouseout="this.innerHTML = 'Tinh Nguyen'">Tinh Nguyen</a>
 		    	<p id="subtitle" style="color:#E6E6E6">Programmer. Hacker. Student</p>
 			</div>
 
-			<div id="nav_bar">
+			<section id="nav_bar">
 				<div id="nav_bar_column">
 					<a id="nav_link" class="elegant-button-big green" style="color:#E6E6E6" href="http://github.com/tinhnguyen20">GitHub</a>
 				</div>
@@ -35,16 +35,27 @@
 				<div id="nav_bar_column">
 					<a id="nav_link" class="elegant-button-big green_current_page" style="color:#E6E6E6" href="projects.html">Projects</a>
 				</div>
-			</div>
+			</section>
 		</div>
 
-		<div id="container">
+		<section id="container">
 			<!--For projects! -->
 			<div id="project_container">
-				<div>
-					<p> Under Construction. Check out what I have been working on through Github! </p>
+				<div id="project_name">
+					<p style="margin-bottom:5px"><a style="font-size: 170%;" align="justify" href="https://github.com/tinhnguyen20/SpeedReader">Speed Reader</a></p>
+					<p style=" font-size:120%; margin-top:5px;">Summer 2013</p>
+				</div>
+				<hr width="1" size="195" style="float: left">
+				<div id="project_description_container">
+					<p>A "chunking" algorithm devised to segment a text file into groups of words, allowing users to read faster and with a higher retention rate. Currently, the application is minimum viable product deployed on Android.</p>
+					<p>Email me if you wish to learn more about my future plans on this project. </p>
+
+
 				</div>
 			</div>
-		</div> <!-- #/container -->
+		</section> <!-- #/container -->
+		<footer>
+  			<p>Contact information: <a href="mailto:tinh.t.nguyen@berkeley.edu">tinh.t.nguyen@berkeley.edu</a>.</p>
+		</footer>
 	</body>
 </html>

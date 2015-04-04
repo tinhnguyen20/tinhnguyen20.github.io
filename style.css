@@ -6,7 +6,7 @@ html, body{
     background: #E1E1E1;
 }
 #title{
-    margin-top: 10px;
+    margin-top: 25px;
     margin-bottom: 10px;
     font-family: "Open Sans", sans-serif;
     font-size: 250%;
@@ -18,14 +18,14 @@ html, body{
     margin-bottom: 15px;
     font-family: "Open Sans", sans-serif;
 }
-a:visited {
- color:black;
-}
-a:link{
+a, p{
+    font-family: "Open Sans", sans-serif;
     text-decoration: none;
 }
-p{
-    font-family: "Open Sans", sans-serif;
+
+a:visited{
+    text-decoration: none; 
+    color: #1A7991;
 }
 
 #nav_link{
@@ -41,21 +41,12 @@ p{
 }
 
 
-#tile1{
-    color:black;
-    float: left;
-    margin-left: 22px;
-    width: 30%;
-    height: 150px;
-    background:#E1E1E1;
-
-}
 
 
 #text_container_header{
     color:#E6E6E6;
     text-align:center;
-    padding:20px;
+    padding-bottom: 10px;
     font-family: "Open Sans", sans-serif;
     font-weight:300;
     font-size: 20px;
@@ -71,15 +62,15 @@ p{
     background-repeat: no-repeat;
     background-position: 50% 27%;
     width:100%;
-    height:375px;
+    height:400px;
 }
 
 #container {
     width:750px;
-    height: 400px;
+    height: 220px;
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     background: #FAFAFA;
     text-align:left; /*resets text alignment from body tag */
     padding: 20px;
@@ -92,6 +83,7 @@ p{
 #nav_bar{
     width:800px;
     height:40px;
+    margin-top: 30px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -106,6 +98,7 @@ p{
 
 #about_me{
     font-size: 110%;
+    text-align: justify;
 }
 
 #about_me_title{
@@ -113,7 +106,6 @@ p{
     width: 22%;
     font-size: 170%; 
     color: #1A7991;
-    margin-top: 0px;
 
 }
 #about_me_text{
