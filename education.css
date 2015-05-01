@@ -1,0 +1,58 @@
+/* header 4 is used specifically for header of descriptions (Main Topics) */
+h4{
+	margin-bottom: 0px;
+}
+
+.courses{
+	text-align: center;
+	padding-top: 10px;
+	background-color: #fafafa;
+}
+.attribute_container{
+	padding-left: 110px;
+	padding-right: 110px;
+	height: 100px;
+}
+.attributes{
+	text-align: left;
+	float:left;
+	width:33%;
+	font-size: 1.2em;
+}
+
+.class{
+	padding-top: 20px;
+	padding-left: 120px;
+	padding-right: 120px;
+	height: 300px;
+	text-align: left;
+	
+}
+
+.left_education_img{
+	float:left;
+	height:200px;
+	margin-right: 15px;
+}
+
+.left_education_description{
+	font-family: 'Karla', sans-serif;
+	float:right;
+	width: 45%;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.course_title{
+	font-size: 1.9em;
+	margin:0px; 
+	text-align:center;
+}
+
+
+.course_subtitle{
+	font-size: 1.2em;
+	margin:0px; 
+	text-align:center;
+
+}
