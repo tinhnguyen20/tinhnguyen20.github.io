@@ -6,55 +6,54 @@
         <link rel="stylesheet" type="text/css" href="buttons/elegant-buttons.css">
         <link rel="icon" type="image/jpg" href="res/icon.jpg">
         <!-- Unused fonts, -->
-        <!--<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>-->
-        <!--<link href='http://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>-->
+        <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Karla' rel='stylesheet' type='text/css'>
     </head>
 
 	<body>
-		<section id="banner">
-			<div id="text_container_header">
-				<center><img src="res/profile_pic.png" alt="portrait" style="width:120px; height:120px; margin-top:35px; margin-bottom:20px"></center>
-				<!-- NOTE: Need to use JS to change animation 
-				Tinh Nguyen -> About Me
-				 -->
-		    	<a id="title" style="color:#E6E6E6" href="index.html" onmouseover="this.innerHTML = 'About Me'" onmouseout="this.innerHTML = 'Tinh Nguyen'">Tinh Nguyen</a>
-		    	<p id="subtitle" style="color:#E6E6E6">Programmer. Hacker. Student</p>
+		<section class="intro">
+			<div class="nav_bar">
+			<a class="name_icon" href="index.html">Tinh Nguyen</a>
+			<ul class="nav">
+				<li class="link_nav_bar">
+					<a href="mailto:tinh.t.nguyen@berkeley.edu">Contact Me</a>
+				</li>
+				<li class="link_nav_bar">
+					<a href="education.html">Education</a>
+				</li>
+				<li class="link_nav_bar">
+					<a href="projects.html">Projects</a>
+				</li>
+				<li class="link_nav_bar">
+					<a href="http://bit.ly/1I2m84G">Resume</a>
+				</li>
+			</ul>	
 			</div>
-
-			<section id="nav_bar">
-				<div id="nav_bar_column">
-					<a id="nav_link" class="elegant-button-big green" style="color:#E6E6E6" href="http://github.com/tinhnguyen20">GitHub</a>
-				</div>
-				<div id="nav_bar_column">
-					<a id="nav_link" class="elegant-button-big green" style="color:#E6E6E6" href="http://linkedin.com/in/tinhnguyenucb" style="text-align">LinkedIn</a>
-				</div>
-				<div id="nav_bar_column">
-					<a id="nav_link" class="elegant-button-big green" style="color:#E6E6E6" href="https://berkeley.box.com/s/6wtl4nil8pxhdwu6lyi5lpj71mw2f5ra">Resume</a>
-				</div>
-				<div id="nav_bar_column">
-					<a id="nav_link" class="elegant-button-big green" style="color:#E6E6E6" href="projects.html">Projects</a>
-				</div>
-			</section>
+			<!-- Will replace with better image -->
+			<!-- <img class="intro_img" src="res/bulbasaur.gif"/> -->
+			<h2 style="font-size:4em; margin-top:160px; margin-bottom: 10px;">I'm Tinh Nguyen</h2>
+			<h3 style="font-size:2em">Programmer - Hacker</h3>
 		</section>
 
-		<section id="container">
-			<div id="about_me_container">
-				<div id="about_me_title">
-					<p style="margin:12px">About me</p>
-				</div>
-				<hr width="1" size="180" style="float: left">
-				<div id="about_me_text">
-					<p id="about_me" align="justify"> I am currently a student studying Computer Science at UC Berkeley. </p>
+		<section class="about_me">
+			<img class="profile_pic" src="res/profile_pic.png"/>
+			<p class="about_me_description">
+				I am currently a student studying Computer Science at UC Berkeley. I like exploring Machine Learning applications while developing web and mobile apps in my free time. </p>
+			<p class="about_me_description">
+				If you are interested in working with me, I am available for freelance work or for hire over the summer. </p>
+		</section>
 
-					<p id="about_me" align="justify">Recently, I have been diving into Machine Learning through Stanford's online course hosted on Coursera. I still, however, develop and explore web and mobile apps in my free time.</p>
-
-					<p id="about_me" align="justify">This summer I will be working on developing intelligent quadrotors and an education app called Speed Reader (deployed on Android) . Contact me if you are interested in learning more! </p>
-				</div>
-			</div>
-		</section> <!-- #/container -->
-
-		<footer>
-  			<p>Contact information: <a href="mailto:tinh.t.nguyen@berkeley.edu">tinh.t.nguyen@berkeley.edu</a>.</p>
+		<footer class="social_media">
+			<a href="https://www.facebook.com/hungrytinh"> 
+				<img class="social_media_button" src="res/icons/facebook.png" />
+			</a>
+			<a href="http://linkedin.com/in/tinhnguyenucb">
+				<img class="social_media_button" src="res/icons/linkedin.png"/>
+			</a>
+			<a href="http://github.com/tinhnguyen20">
+				<img class="social_media_button" src="res/icons/github.png"/>
+			</a>
 		</footer>
 	</body>
 </html>

@@ -3,59 +3,63 @@
     <head>
         <title>Tinh Nguyen</title>
         <link rel="stylesheet" type="text/css" href="style.css">
-        <link rel="stylesheet" type="text/css" href="projects.css">
         <link rel="stylesheet" type="text/css" href="buttons/elegant-buttons.css">
         <link rel="icon" type="image/jpg" href="res/icon.jpg">
-        <!-- Unused fonts, -->
-        <!--<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>-->
-        <!--<link href='http://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>-->
+        <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Karla' rel='stylesheet' type='text/css'>
     </head>
 
 	<body>
-		<div id="banner">
-			<div id="text_container_header">
-				<center><img src="res/profile_pic.png" alt="portrait" style="width:120px; height:120px; margin-top:35px; margin-bottom:20px"></center>
-				<!-- NOTE: Need to use JS to change animation 
-				Tinh Nguyen -> About Me
-				 -->
-		    	<a id="title" style="color:#E6E6E6" href="index.html" onmouseover="this.innerHTML = 'About Me'" onmouseout="this.innerHTML = 'Tinh Nguyen'">Tinh Nguyen</a>
-		    	<p id="subtitle" style="color:#E6E6E6">Programmer. Hacker. Student</p>
+		
+		<!-- Intro used on all webpages -->
+		<!-- Intro will hold most recent project -->
+		<section class="intro">
+			<div class="nav_bar">
+				<a class="name_icon" href="index.html">Tinh Nguyen</a>
+				<ul class="nav">
+					<li class="link_nav_bar">
+						<a href="mailto:tinh.t.nguyen@berkeley.edu">Contact Me</a>
+					</li>
+					<li class="link_nav_bar">
+					<a href="education.html">Education</a>
+				</li>
+					<li class="link_nav_bar">
+						<a href="projects.html">Projects</a>
+					</li>
+					<li class="link_nav_bar">
+						<a href="http://bit.ly/1I2m84G">Resume</a>
+					</li>
+				</ul>	
 			</div>
 
-			<section id="nav_bar">
-				<div id="nav_bar_column">
-					<a id="nav_link" class="elegant-button-big green" style="color:#E6E6E6" href="http://github.com/tinhnguyen20">GitHub</a>
-				</div>
-				<div id="nav_bar_column">
-					<a id="nav_link" class="elegant-button-big green" style="color:#E6E6E6" href="http://linkedin.com/in/tinhnguyenucb" style="text-align">LinkedIn</a>
-				</div>
-				<div id="nav_bar_column">
-					<a id="nav_link" class="elegant-button-big green" style="color:#E6E6E6" href="https://berkeley.box.com/s/5vupdptc29ee4w22qo8xa8h5trct5bw6">Resume</a>
-				</div>
-				<div id="nav_bar_column">
-					<a id="nav_link" class="elegant-button-big green_current_page" style="color:#E6E6E6" href="projects.html">Projects</a>
-				</div>
+			<h1 style="margin-top: 50px; margin-bottom: 10px; font-size:3em;">Projects</h1>
+			<h2 style="font-size:1.6em;">Check out what I've been up to</h2>
+			<hr class="line_divide"></hr>
+
+			<section>
+			<h1>A work in progress, check out my github below!</h1>
 			</section>
-		</div>
 
-		<section id="container">
-			<!--For projects! -->
-			<div id="project_container">
-				<div id="project_name">
-					<p style="margin-bottom:5px"><a style="font-size: 170%;" align="justify" href="https://github.com/tinhnguyen20/SpeedReader">Speed Reader</a></p>
-					<p style=" font-size:120%; margin-top:5px;">Summer 2013</p>
-				</div>
-				<hr width="1" size="195" style="float: left">
-				<div id="project_description_container">
-					<p>A "chunking" algorithm devised to segment a text file into groups of words, allowing users to read faster and with a higher retention rate. Currently, the application is minimum viable product deployed on Android.</p>
-					<p>Email me if you wish to learn more about my future plans on this project. </p>
+			<!-- Most recent/impressive project will always be inside intro -->
+		</section>
+
+		<!-- Section that will become "past_projects" -->
+		<section>
+
+		</section>
 
 
-				</div>
-			</div>
-		</section> <!-- #/container -->
-		<footer>
-  			<p>Contact information: <a href="mailto:tinh.t.nguyen@berkeley.edu">tinh.t.nguyen@berkeley.edu</a>.</p>
+		<footer class="social_media">
+			<a href="https://www.facebook.com/hungrytinh"> 
+				<img class="social_media_button" src="res/icons/facebook.png" />
+			</a>
+			<a href="http://linkedin.com/in/tinhnguyenucb">
+				<img class="social_media_button" src="res/icons/linkedin.png"/>
+			</a>
+			<a href="http://github.com/tinhnguyen20">
+				<img class="social_media_button" src="res/icons/github.png"/>
+			</a>
 		</footer>
 	</body>
 </html>
