@@ -49,8 +49,8 @@ a:visited{
     /*background-image:url("res/collage.jpg");*/
     background-size: cover;
     padding: 30px;
+    padding-bottom: 30%;
     height: auto;
-    min-height: 500px;
     text-align: center;
     color: white;
 }
@@ -105,6 +105,12 @@ a:visited{
     margin-top: 50px; 
     margin-left:110px; 
     margin-right:110px
+}
+
+#fullName {
+    font-size: 4em; 
+    margin-top: 16%; 
+    margin-bottom: 10px;
 }
 
 
