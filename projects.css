@@ -4,10 +4,16 @@
 	padding-left: 20%;
 	padding-right: 20%;
 	padding-bottom: 30px;
+	/*font-family: 'Hind', sans-serif;*/
 }
 .past_projects{
 	padding-left:30px;
 	padding-right: 30px;
 	padding-bottom:20px;
 	background:#fafafa;
+}
+
+.light_link{
+	text-decoration: none;
+	color: #d3d3d3;
 }
