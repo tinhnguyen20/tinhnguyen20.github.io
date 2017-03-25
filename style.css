@@ -21,6 +21,7 @@ a:visited{
 .nav_bar{
     font-size: 19px;
     height: 25px;
+    padding: 3%;
 }
 
 .name_icon{
@@ -49,10 +50,10 @@ a:visited{
     background-color: #BFD4D9;
     /*background-image:url("res/collage.jpg");*/
     background-size: cover;
-    padding: 20%;
     height: auto;
     text-align: center;
     color: white;
+    padding-bottom: 20%;
 }
 
 .intro_img{
