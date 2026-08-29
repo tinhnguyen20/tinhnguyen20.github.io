@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tinh Nguyen — Developer Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="js/app.js" type="module" defer></script>
+    <style>
+        :root {
+            --primary-100: #2E8B57;
+            --primary-200: #61bc84;
+            --primary-300: #c6ffe6;
+            --accent-100: #8FBC8F;
+            --accent-200: #345e37;
+            --text-100: #FFFFFF;
+            --text-200: #e0e0e0;
+            --bg-100: #1E1E1E;
+            --bg-200: #2d2d2d;
+            --bg-300: #454545;
+        }
+    </style>
+</head>
+<body class="bg-[var(--bg-100)] text-[var(--text-200)]">
+    <div class="flex min-h-screen">
+        <aside class="w-64 shrink-0 bg-[var(--bg-200)] text-[var(--text-200)] flex flex-col">
+            <div class="px-6 py-8">
+                <p class="text-lg font-semibold text-[var(--text-100)]">Tinh Nguyen</p>
+                <p class="text-sm text-[var(--accent-100)]">Software Developer</p>
+            </div>
+            <nav id="sidebar-nav" class="flex-1 px-3 space-y-1"></nav>
+            <div class="px-6 py-6 text-xs text-[var(--text-200)]/60">
+                &copy; <span id="year"></span> Tinh Nguyen
+            </div>
+        </aside>
+
+        <main id="main-content" class="flex-1 px-8 py-10 md:px-16 md:py-16 max-w-4xl"></main>
+    </div>
+</body>
+</html>
