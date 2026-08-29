@@ -66,12 +66,12 @@ export default {
         const items = jobs
             .map(
                 (job) => `
-                <li class="border-l-2 border-indigo-200 pl-4 pb-8 last:pb-0">
-                    <p class="text-sm text-slate-400">${job.dates}</p>
-                    <p class="text-lg font-semibold text-slate-900">${job.role}</p>
-                    <p class="text-slate-500 mb-2">${job.company}</p>
+                <li class="border-l-2 border-[var(--primary-100)] pl-4 pb-8 last:pb-0">
+                    <p class="text-sm text-[var(--text-200)]/60">${job.dates}</p>
+                    <p class="text-lg font-semibold text-[var(--text-100)]">${job.role}</p>
+                    <p class="text-[var(--accent-100)] mb-2">${job.company}</p>
                     <ul class="list-disc list-outside ml-4 space-y-1">
-                        ${job.highlights.map((point) => `<li class="text-slate-600">${point}</li>`).join("")}
+                        ${job.highlights.map((point) => `<li class="text-[var(--text-200)]">${point}</li>`).join("")}
                     </ul>
                 </li>
             `
@@ -79,7 +79,7 @@ export default {
             .join("");
 
         return `
-            <h1 class="text-3xl font-bold text-slate-900 mb-6">Work Experience</h1>
+            <h1 class="text-3xl font-bold text-[var(--text-100)] mb-6">Work Experience</h1>
             <ul>${items}</ul>
         `;
     },

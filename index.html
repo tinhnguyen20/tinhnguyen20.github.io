@@ -1,53 +1,40 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Tinh Nguyen</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <link rel="icon" type="image/jpg" href="res/icon.jpg">
-        <!-- Fonts -->
-        <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Karla' rel='stylesheet' type='text/css'>
-        <link href="https://fonts.googleapis.com/css?family=Hind" rel="stylesheet">
-        <!-- Testing Fonts -->
-        <link href='http://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
-    </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tinh Nguyen — Developer Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="js/app.js" type="module" defer></script>
+    <style>
+        :root {
+            --primary-100: #2E8B57;
+            --primary-200: #61bc84;
+            --primary-300: #c6ffe6;
+            --accent-100: #8FBC8F;
+            --accent-200: #345e37;
+            --text-100: #FFFFFF;
+            --text-200: #e0e0e0;
+            --bg-100: #1E1E1E;
+            --bg-200: #2d2d2d;
+            --bg-300: #454545;
+        }
+    </style>
+</head>
+<body class="bg-[var(--bg-100)] text-[var(--text-200)]">
+    <div class="flex min-h-screen">
+        <aside class="w-64 shrink-0 bg-[var(--bg-200)] text-[var(--text-200)] flex flex-col">
+            <div class="px-6 py-8">
+                <p class="text-lg font-semibold text-[var(--text-100)]">Tinh Nguyen</p>
+                <p class="text-sm text-[var(--accent-100)]">Software Developer</p>
+            </div>
+            <nav id="sidebar-nav" class="flex-1 px-3 space-y-1"></nav>
+            <div class="px-6 py-6 text-xs text-[var(--text-200)]/60">
+                &copy; <span id="year"></span> Tinh Nguyen
+            </div>
+        </aside>
 
-	<body>
-		<section class="intro"">
-			<div class="nav_bar">
-			<a class="name_icon" href="index.html">Tinh Nguyen</a>
-			<ul class="nav">
-				<li class="link_nav_bar">
-					<a class="nav_link" href="mailto:tinh.t.nguyen@berkeley.edu">Contact Me</a>
-				</li>
-				<!-- <li class="link_nav_bar">
-					<a href="education.html">Education</a>
-				</li> -->
-				<li class="link_nav_bar">
-					<a class="nav_link" href="projects.html">Projects</a>
-				</li>
-				<li class="link_nav_bar">
-					<a class="nav_link" href="res/tinhnguyenResume.pdf">Resume</a>
-				</li>
-			</ul>	
-			</div>
-			<h2 id="full_name">Tinh Nguyen</h2>
-			<h3 id="job_title">Software Developer.</h3>
-		</section>
-
-		<section class="about_me">
-			<img class="profile_pic" src="res/profile_pic.png"/>
-			<div class="about_me_description">
-			<h1>Hi I'm Tinh,</h1>
-			<p>
-				a recent graduate from UC Berkeley, interested in software engineering and machine learning! I am currently <b>actively looking</b> for a full-time software engineering role. In my free time, I am working on weinvest.live, an application that is designed to highlight trends and abnormalities to long-term investors.</p>
-			<p>
-				When I'm not coding or working on side projects, I like to go fishing in California's many great national parks or beachs. Feel free to talk to me about machine learning, SWE, my project or any job opportunities!</p>
-			<p>
-				Contact me at tinh.t.nguyen@berkeley.edu - or take a look at my <a class="description_link" href="res/tinhnguyenResume.pdf">Resume</a> or my <a class="description_link" href="http://github.com/tinhnguyen20">Github</a>.</p>
-			</div>
-		</section>
-	</body>
+        <main id="main-content" class="flex-1 px-8 py-10 md:px-16 md:py-16 max-w-4xl"></main>
+    </div>
+</body>
 </html>

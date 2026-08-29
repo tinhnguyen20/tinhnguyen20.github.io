@@ -14,16 +14,16 @@ export default {
         const cards = hobbies
             .map(
                 (h) => `
-                <div class="rounded-lg border border-slate-200 bg-white p-5 shadow-sm">
-                    <p class="font-semibold text-slate-900">${h.name}</p>
-                    <p class="text-slate-600 text-sm mt-1">${h.note}</p>
+                <div class="rounded-lg border border-[var(--bg-300)] bg-[var(--bg-200)] p-5">
+                    <p class="font-semibold text-[var(--text-100)]">${h.name}</p>
+                    <p class="text-[var(--text-200)] text-sm mt-1">${h.note}</p>
                 </div>
             `
             )
             .join("");
 
         return `
-            <h1 class="text-3xl font-bold text-slate-900 mb-6">Hobbies</h1>
+            <h1 class="text-3xl font-bold text-[var(--text-100)] mb-6">Hobbies</h1>
             <div class="grid sm:grid-cols-2 gap-4">${cards}</div>
         `;
     },
