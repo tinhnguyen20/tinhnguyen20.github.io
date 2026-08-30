@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hiền</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="https://fav.farm/%E2%9D%A4%EF%B8%8F" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+</head>
+<body>
+    <section class="hero">
+
+    <h1 class="ml16">Happy Birthday to you!</h1>
+
+    <div class="carousel-container">
+        <div class="carousel-row">
+            <button class="nav-btn" onclick="navigate(-1)">&#8249;</button>
+
+            <div class="carousel-viewport">
+                <div class="carousel-track" id="track">
+
+                    <div class="carousel-slide">
+                        <div class="envelope-wrapper" onclick="toggleEnvelope(0)">
+                            <div class="note">
+                                <!-- <h2>Happy Birthday! 🎉</h2> -->
+                                <!-- <p>Here's to you my love! I hope today is as beautiful and wonderful as you are!</p> -->
+                                <h2>Hiền</h2>
+                                <p>Happy birthday to my favorite person in the world!</p>
+                                <p>My rabbit, my em be, my love.</p>
+                            </div>
+                            <div class="envelope"></div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-slide">
+                        <div class="envelope-wrapper" onclick="toggleEnvelope(1)">
+                            <div class="note">
+                                <h2>🌸</h2>
+                                <p>I love how kind, gentle, and patient you are with me. You make my world a brighter, softer, happier place. Thank you for all that you do for me.</p>
+                            </div>
+                            <div class="envelope"></div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-slide">
+                        <div class="envelope-wrapper" onclick="toggleEnvelope(2)">
+                            <div class="note">
+                                <h2>🥕</h2>
+                                <p>I can't help but smile when I look back on all our little adventures and little dates. There isn't another person I want to share the future more with.</p>
+                            </div>
+                            <div class="envelope"></div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-slide">
+                        <div class="envelope-wrapper" onclick="toggleEnvelope(3)">
+                            <div class="note">
+                                <h2>🎉</h2>
+                                <p>I hope your birthday is filled with all your favorite treats, lots of rest and anything else that makes you smile! I can't wait to celebrate the whole year with you!</p>
+                            </div>
+                            <div class="envelope"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <button class="nav-btn" onclick="navigate(1)">&#8250;</button>
+        </div>
+
+        <div class="dots">
+            <span class="dot active" onclick="goTo(0)"></span>
+            <span class="dot" onclick="goTo(1)"></span>
+            <span class="dot" onclick="goTo(2)"></span>
+            <span class="dot" onclick="goTo(3)"></span>
+        </div>
+    </div>
+
+    <div class="scroll-hint">&#8964;</div>
+
+    </section>
+
+    <section class="cake-section">
+        <img src="assets/bear-kiss-bear-kisses.gif" alt="Strawberry Cake" >
+        <p class="cake-msg">because you deserve all the sweetness 🍓✨</p>
+        <div class="scroll-hint">&#8964;</div>
+    </section>
+
+    <section class="photos-section">
+        <h2 class="section-title">Us 🥰</h2>
+        <div class="photo-carousel-row">
+            <button class="nav-btn" onclick="photoNavigate(-1)">&#8249;</button>
+            <div class="photo-viewport">
+                <div class="photo-track" id="photoTrack">
+                    <div class="photo-slide"><div class="photo-placeholder">📷</div></div>
+                    <div class="photo-slide"><div class="photo-placeholder">📷</div></div>
+                    <div class="photo-slide"><div class="photo-placeholder">📷</div></div>
+                    <div class="photo-slide"><div class="photo-placeholder">📷</div></div>
+                    <div class="photo-slide"><div class="photo-placeholder">📷</div></div>
+                </div>
+            </div>
+            <button class="nav-btn" onclick="photoNavigate(1)">&#8250;</button>
+        </div>
+        <div class="photo-dots" id="photoDots"></div>
+    </section>
+
+    <div class="hearts-bg" aria-hidden="true"></div>
+
+    <script>
+        // ── Floating hearts ──
+        (function () {
+            const container = document.querySelector('.hearts-bg');
+            const count = 31;
+            for (let i = 0; i < count; i++) {
+                const el = document.createElement('div');
+                el.className = 'heart';
+                el.style.cssText = [
+                    `left: ${Math.random() * 95}%`,
+                    `transform: scale(${0.4 + Math.random() * 0.8})`,
+                    `opacity: ${0.3 + Math.random() * 0.5}`,
+                    `animation-duration: ${10 + Math.random() * 15}s, ${2 + Math.random() * 4}s`,
+                    `animation-delay: 1s, 0s`,
+                ].join(';');
+                container.appendChild(el);
+            }
+        })();
+
+        function getStep(trackEl) {
+            const slide = trackEl.querySelector(':scope > *');
+            const gap = parseFloat(getComputedStyle(trackEl).gap) || 0;
+            return slide.offsetWidth + gap;
+        }
+
+        let current = 0;
+        const track    = document.getElementById('track');
+        const wrappers = document.querySelectorAll('.envelope-wrapper');
+        const dots     = document.querySelectorAll('.dot');
+
+        function goTo(index) {
+            const openWrapper = Array.from(wrappers).find(w => w.classList.contains('open'));
+
+            const slide = () => {
+                dots[current].classList.remove('active');
+                current = index;
+                dots[current].classList.add('active');
+                track.style.transform = `translateX(-${current * getStep(track)}px)`;
+            };
+
+            if (openWrapper) {
+                openWrapper.classList.remove('open');
+                openWrapper.classList.add('closing');
+                setTimeout(() => {
+                    openWrapper.classList.remove('closing');
+                    slide();
+                }, 400);
+            } else {
+                slide();
+            }
+        }
+
+        function navigate(direction) {
+            goTo((current + direction + 4) % 4);
+        }
+
+        function toggleEnvelope(index) {
+            const wrapper = wrappers[index];
+            if (wrapper.classList.contains('open')) {
+                wrapper.classList.remove('open');
+                wrapper.classList.add('closing');
+                setTimeout(() => wrapper.classList.remove('closing'), 400);
+            } else {
+                wrapper.classList.add('open');
+            }
+        }
+
+        // ── Photo carousel ──
+        const PHOTO_COUNT = 5;
+        let photoCurrent  = 0;
+        const photoTrack  = document.getElementById('photoTrack');
+        const photoDotWrap = document.getElementById('photoDots');
+
+        for (let i = 0; i < PHOTO_COUNT; i++) {
+            const d = document.createElement('span');
+            d.className = 'dot' + (i === 0 ? ' active' : '');
+            d.onclick = () => photoGoTo(i);
+            photoDotWrap.appendChild(d);
+        }
+        const photoDots = photoDotWrap.querySelectorAll('.dot');
+
+        function photoGoTo(index) {
+            photoDots[photoCurrent].classList.remove('active');
+            photoCurrent = index;
+            photoDots[photoCurrent].classList.add('active');
+            photoTrack.style.transform = `translateX(-${photoCurrent * getStep(photoTrack)}px)`;
+        }
+
+        function photoNavigate(dir) {
+            photoGoTo((photoCurrent + dir + PHOTO_COUNT) % PHOTO_COUNT);
+        }
+
+        window.addEventListener('resize', () => {
+            track.style.transform = `translateX(-${current * getStep(track)}px)`;
+            photoTrack.style.transform = `translateX(-${photoCurrent * getStep(photoTrack)}px)`;
+        });
+
+        // Split each character into its own span so anime.js can target letters
+        document.querySelectorAll('.ml16').forEach(el => {
+            el.innerHTML = el.textContent.replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>");
+        });
+
+        // Timeline: letters drop in, then heading fades out
+        anime.timeline({ loop: false })
+            .add({
+                targets: '.ml16 .letter',
+                translateY: [-100, 0],
+                easing: 'easeOutExpo',
+                duration: 1400,
+                delay: (el, i) => 30 * i
+            })
+            .add({
+                targets: '.ml16',
+                opacity: 0,
+                duration: 1000,
+                easing: 'easeOutExpo',
+                delay: 1000
+            });
+    </script>
+</body>
+</html>

@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Nunito:wght@400;600;700&display=swap');
+
+:root {
+    --slide-w: min(300px, calc(100vw - 120px));
+    --slide-h: calc(var(--slide-w) * 2 / 3);
+    --slide-gap: 40px;
+    --photo-h: calc(var(--slide-w) * 1.267);
+}
+
+body {
+    background-color: #ffeef2;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+}
+
+.ml16 {
+  color: #402d2d;
+  padding: 2px 0;
+  font-weight: 800;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ml16 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.cake-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    gap: 28px;
+    position: relative;
+}
+
+/* ── Photos section ── */
+
+.photos-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    gap: 24px;
+}
+
+.section-title {
+    font-family: 'Pacifico', cursive;
+    color: #d63031;
+    font-size: clamp(24px, 8vw, 36px);
+    margin: 0;
+    text-align: center;
+}
+
+.photo-carousel-row {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.photo-viewport {
+    width: var(--slide-w);
+    height: var(--photo-h);
+    overflow: hidden;
+    border-radius: 16px;
+}
+
+.photo-track {
+    display: flex;
+    gap: var(--slide-gap);
+    transition: transform 0.4s ease;
+}
+
+.photo-slide {
+    width: var(--slide-w);
+    height: var(--photo-h);
+    flex-shrink: 0;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.photo-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.photo-placeholder {
+    width: 100%;
+    height: 100%;
+    background: #ffd6e0;
+    border: 3px dashed #f08080;
+    border-radius: 16px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 52px;
+}
+
+.photo-dots {
+    display: flex;
+    gap: 8px;
+}
+
+.cake-img {
+    width: min(200px, 50vw);
+    height: auto;
+    filter: drop-shadow(0 8px 24px rgba(0,0,0,0.12));
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50%       { transform: translateY(-10px); }
+}
+
+.cake-msg {
+    font-size: clamp(16px, 5vw, 22px);
+    color: #d63031;
+    font-family: 'Pacifico', cursive;
+    letter-spacing: 0.02em;
+    margin: 0;
+    text-align: center;
+}
+
+.scroll-hint {
+    position: absolute;
+    bottom: 28px;
+    font-size: 32px;
+    color: #f08080;
+    animation: bounce 1.8s ease-in-out infinite;
+    cursor: pointer;
+    user-select: none;
+}
+
+@keyframes bounce {
+    0%, 100% { transform: translateY(0);   opacity: 0.5; }
+    50%       { transform: translateY(8px); opacity: 1; }
+}
+
+.page-title {
+    text-align: center;
+    color: #d63031;
+    font-size: clamp(28px, 9vw, 40px);
+    font-family: 'Pacifico', cursive;
+    /* margin: 0 0 24px; */
+}
+
+/* ── Layout ── */
+
+.carousel-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 130px; /* headroom for open letter */
+}
+
+.carousel-row {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+/* overflow-x: clip keeps adjacent envelopes hidden without
+   creating a BFC, so overflow-y stays visible for the open letter */
+.carousel-viewport {
+    width: var(--slide-w);
+    height: var(--slide-h);
+    overflow-x: clip;
+    overflow-y: visible;
+}
+
+.carousel-track {
+    display: flex;
+    gap: var(--slide-gap);
+    transition: transform 0.4s ease;
+}
+
+.carousel-slide {
+    width: var(--slide-w);
+    height: var(--slide-h);
+    flex-shrink: 0;
+    position: relative;
+}
+
+/* ── Envelope colors — edit these to restyle each envelope ── */
+.carousel-slide:nth-child(1) { --env-base: #f08080; --env-dark: #cd5c5c; --env-light: #f4978e; }
+.carousel-slide:nth-child(2) { --env-base: #b39ddb; --env-dark: #9575cd; --env-light: #ce93d8; }
+.carousel-slide:nth-child(3) { --env-base: #80cbc4; --env-dark: #4db6ac; --env-light: #a5d6d2; }
+.carousel-slide:nth-child(4) { --env-base: #f08080; --env-dark: #cd5c5c; --env-light: #f4978e; }
+
+/* ── Nav arrows ── */
+
+.nav-btn {
+    background: #f08080;
+    border: none;
+    color: white;
+    font-size: 28px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    line-height: 1;
+}
+.nav-btn:hover { background: #cd5c5c; }
+
+/* ── Dots ── */
+
+.dots {
+    display: flex;
+    gap: 8px;
+    margin-top: 18px;
+}
+.dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #f08080;
+    opacity: 0.35;
+    transition: opacity 0.2s;
+    cursor: pointer;
+}
+.dot.active { opacity: 1; }
+
+/* ── Envelope ── */
+
+.envelope-wrapper {
+    position: absolute;
+    inset: 0;
+    cursor: pointer;
+    overflow: hidden;
+}
+.envelope {
+    position: absolute;
+    inset: 0;
+    background-color: var(--env-base);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+/* top flap */
+.envelope::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    border-left: calc(var(--slide-w) / 2) solid transparent;
+    border-right: calc(var(--slide-w) / 2) solid transparent;
+    border-top: calc(var(--slide-h) / 2) solid var(--env-dark);
+    transform-origin: top;
+    transition: transform 0.4s ease;
+    z-index: 3;
+}
+/* inner folds */
+.envelope::after {
+    content: "";
+    position: absolute;
+    bottom: 0; left: 0;
+    border-left: calc(var(--slide-w) / 2) solid var(--env-light);
+    border-right: calc(var(--slide-w) / 2) solid var(--env-light);
+    border-top: calc(var(--slide-h) / 2) solid transparent;
+    border-bottom: calc(var(--slide-h) / 2) solid var(--env-light);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    z-index: 2;
+}
+
+/* ── Note card ── */
+
+.note {
+    position: absolute;
+    top: 5%;
+    left: 6.7%;
+    width: 86.6%;
+    min-height: 85%;
+    height: auto;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 15px;
+    box-sizing: border-box;
+    text-align: center;
+    transition: transform 0.4s ease;
+    z-index: 1;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* ── Open / closing states ── */
+
+.envelope-wrapper.open,
+.envelope-wrapper.closing {
+    overflow: visible;
+}
+
+.envelope-wrapper.open .envelope::before,
+.envelope-wrapper.closing .envelope::before {
+    transform: rotateX(180deg);
+    z-index: 0;
+}
+.envelope-wrapper.open .note {
+    transform: translateY(calc(var(--slide-h) * -0.55));
+    z-index: 4;
+}
+
+/* ── Letter typography ── */
+
+h2 { color: #d63031; margin: 0 0 8px; font-size: 17px; font-family: 'Pacifico', cursive; }
+p  { font-size: 14px; line-height: 1.6; color: #666; margin: 0; font-family: 'Nunito', sans-serif; }
+
+/* ── Floating hearts ── */
+.hearts-bg {
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.heart {
+    position: absolute;
+    bottom: -40px;
+    width: 20px;
+    height: 20px;
+    animation: float-up linear infinite, sway ease-in-out infinite alternate;
+}
+
+.heart::before,
+.heart::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 10px;
+    width: 10px;
+    height: 16px;
+    background: #f08080;
+    border-radius: 10px 10px 0 0;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+}
+
+.heart::after {
+    left: 0;
+    transform: rotate(45deg);
+    transform-origin: 100% 100%;
+}
+
+@keyframes float-up {
+    0%   { bottom: -40px; }
+    100% { bottom: 110vh; }
+}
+
+@keyframes sway {
+    0%   { margin-left: 0; }
+    100% { margin-left: 50px; }
+}
