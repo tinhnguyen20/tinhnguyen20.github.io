@@ -1,0 +1,41 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "bounce-easing",
+        "value": "cubic-bezier(.3, 1.18, .5, 1)",
+        "createdAt": "2026-10-15T06:48:51.442Z",
+        "reason": "agent: direction contract motion grammar names a soft paper spring; overshoot is 18% on letter rise only"
+      },
+      {
+        "rule": "organic-clip-path",
+        "value": "*",
+        "files": [
+          "styles.css"
+        ],
+        "createdAt": "2026-10-15T06:48:51.457Z",
+        "reason": "agent: washi tape torn ends and stripes; body overflow-x clip prevents sideways scroll from flying hearts"
+      },
+      {
+        "rule": "repeating-stripes-gradient",
+        "value": "*",
+        "files": [
+          "styles.css"
+        ],
+        "createdAt": "2026-10-15T06:48:51.471Z",
+        "reason": "agent: washi tape torn ends and stripes; body overflow-x clip prevents sideways scroll from flying hearts"
+      },
+      {
+        "rule": "clipped-overflow-container",
+        "value": "*",
+        "files": [
+          "styles.css"
+        ],
+        "createdAt": "2026-10-15T06:48:51.486Z",
+        "reason": "agent: washi tape torn ends and stripes; body overflow-x clip prevents sideways scroll from flying hearts"
+      }
+    ]
+  }
+}

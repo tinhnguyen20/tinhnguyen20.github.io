@@ -1,0 +1,541 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-15T00:00:00Z",
+  "title": "Design System: Hiền",
+  "extensions": {
+    "colorMeta": {
+      "strawberry-ground": {
+        "role": "primary",
+        "displayName": "Strawberry Ground",
+        "canonical": "oklch(56.5% 0.179 17.7)",
+        "tonalRamp": [
+          "oklch(15% 0.101 17.7)",
+          "oklch(27% 0.124 17.7)",
+          "oklch(39% 0.148 17.7)",
+          "oklch(51% 0.171 17.7)",
+          "oklch(63% 0.163 17.7)",
+          "oklch(75% 0.140 17.7)",
+          "oklch(86% 0.118 17.7)",
+          "oklch(95% 0.101 17.7)"
+        ]
+      },
+      "strawberry-deep": {
+        "role": "primary",
+        "displayName": "Strawberry Deep",
+        "canonical": "oklch(50.4% 0.162 16.4)",
+        "tonalRamp": [
+          "oklch(15% 0.091 16.4)",
+          "oklch(27% 0.112 16.4)",
+          "oklch(39% 0.133 16.4)",
+          "oklch(51% 0.154 16.4)",
+          "oklch(63% 0.147 16.4)",
+          "oklch(75% 0.126 16.4)",
+          "oklch(86% 0.107 16.4)",
+          "oklch(95% 0.091 16.4)"
+        ]
+      },
+      "strawberry-lit": {
+        "role": "primary",
+        "displayName": "Strawberry Lit",
+        "canonical": "oklch(58.6% 0.175 16.2)",
+        "tonalRamp": [
+          "oklch(15% 0.099 16.2)",
+          "oklch(27% 0.122 16.2)",
+          "oklch(39% 0.145 16.2)",
+          "oklch(51% 0.168 16.2)",
+          "oklch(63% 0.160 16.2)",
+          "oklch(75% 0.137 16.2)",
+          "oklch(86% 0.116 16.2)",
+          "oklch(95% 0.099 16.2)"
+        ]
+      },
+      "cream": {
+        "role": "neutral",
+        "displayName": "Cream",
+        "canonical": "oklch(97.4% 0.014 46.2)",
+        "tonalRamp": [
+          "oklch(15% 0.008 46.2)",
+          "oklch(27% 0.009 46.2)",
+          "oklch(39% 0.011 46.2)",
+          "oklch(51% 0.013 46.2)",
+          "oklch(63% 0.012 46.2)",
+          "oklch(75% 0.011 46.2)",
+          "oklch(86% 0.009 46.2)",
+          "oklch(95% 0.008 46.2)"
+        ]
+      },
+      "blush-type": {
+        "role": "neutral",
+        "displayName": "Blush Type",
+        "canonical": "oklch(91.9% 0.043 9.0)",
+        "tonalRamp": [
+          "oklch(15% 0.024 9.0)",
+          "oklch(27% 0.030 9.0)",
+          "oklch(39% 0.035 9.0)",
+          "oklch(51% 0.041 9.0)",
+          "oklch(63% 0.039 9.0)",
+          "oklch(75% 0.033 9.0)",
+          "oklch(86% 0.028 9.0)",
+          "oklch(95% 0.024 9.0)"
+        ]
+      },
+      "berry-ink": {
+        "role": "neutral",
+        "displayName": "Berry Ink",
+        "canonical": "oklch(30.1% 0.070 4.1)",
+        "tonalRamp": [
+          "oklch(15% 0.039 4.1)",
+          "oklch(27% 0.049 4.1)",
+          "oklch(39% 0.058 4.1)",
+          "oklch(51% 0.067 4.1)",
+          "oklch(63% 0.064 4.1)",
+          "oklch(75% 0.055 4.1)",
+          "oklch(86% 0.046 4.1)",
+          "oklch(95% 0.039 4.1)"
+        ]
+      },
+      "cotton": {
+        "role": "neutral",
+        "displayName": "Cotton",
+        "canonical": "oklch(98.8% 0.007 53.4)",
+        "tonalRamp": [
+          "oklch(15% 0.004 53.4)",
+          "oklch(27% 0.005 53.4)",
+          "oklch(39% 0.006 53.4)",
+          "oklch(51% 0.006 53.4)",
+          "oklch(63% 0.006 53.4)",
+          "oklch(75% 0.005 53.4)",
+          "oklch(86% 0.004 53.4)",
+          "oklch(95% 0.004 53.4)"
+        ]
+      },
+      "blush-paper": {
+        "role": "tertiary",
+        "displayName": "Blush Paper",
+        "canonical": "oklch(91.0% 0.032 10.7)",
+        "tonalRamp": [
+          "oklch(15% 0.018 10.7)",
+          "oklch(27% 0.023 10.7)",
+          "oklch(39% 0.027 10.7)",
+          "oklch(51% 0.031 10.7)",
+          "oklch(63% 0.030 10.7)",
+          "oklch(75% 0.025 10.7)",
+          "oklch(86% 0.021 10.7)",
+          "oklch(95% 0.018 10.7)"
+        ]
+      },
+      "blush-wax": {
+        "role": "secondary",
+        "displayName": "Blush Wax",
+        "canonical": "oklch(50.9% 0.178 18.5)",
+        "tonalRamp": [
+          "oklch(15% 0.100 18.5)",
+          "oklch(27% 0.123 18.5)",
+          "oklch(39% 0.147 18.5)",
+          "oklch(51% 0.170 18.5)",
+          "oklch(63% 0.162 18.5)",
+          "oklch(75% 0.139 18.5)",
+          "oklch(86% 0.118 18.5)",
+          "oklch(95% 0.100 18.5)"
+        ]
+      },
+      "blush-mark": {
+        "role": "secondary",
+        "displayName": "Blush Mark",
+        "canonical": "oklch(65.1% 0.135 11.6)",
+        "tonalRamp": [
+          "oklch(15% 0.076 11.6)",
+          "oklch(27% 0.094 11.6)",
+          "oklch(39% 0.112 11.6)",
+          "oklch(51% 0.129 11.6)",
+          "oklch(63% 0.123 11.6)",
+          "oklch(75% 0.106 11.6)",
+          "oklch(86% 0.089 11.6)",
+          "oklch(95% 0.076 11.6)"
+        ]
+      },
+      "sage-paper": {
+        "role": "tertiary",
+        "displayName": "Sage Paper",
+        "canonical": "oklch(90.9% 0.028 129.8)",
+        "tonalRamp": [
+          "oklch(15% 0.016 129.8)",
+          "oklch(27% 0.019 129.8)",
+          "oklch(39% 0.023 129.8)",
+          "oklch(51% 0.026 129.8)",
+          "oklch(63% 0.025 129.8)",
+          "oklch(75% 0.022 129.8)",
+          "oklch(86% 0.018 129.8)",
+          "oklch(95% 0.016 129.8)"
+        ]
+      },
+      "sage-wax": {
+        "role": "secondary",
+        "displayName": "Sage Wax",
+        "canonical": "oklch(51.4% 0.065 136.1)",
+        "tonalRamp": [
+          "oklch(15% 0.037 136.1)",
+          "oklch(27% 0.045 136.1)",
+          "oklch(39% 0.054 136.1)",
+          "oklch(51% 0.063 136.1)",
+          "oklch(63% 0.060 136.1)",
+          "oklch(75% 0.051 136.1)",
+          "oklch(86% 0.043 136.1)",
+          "oklch(95% 0.037 136.1)"
+        ]
+      },
+      "sage-mark": {
+        "role": "secondary",
+        "displayName": "Sage Mark",
+        "canonical": "oklch(67.8% 0.073 134.3)",
+        "tonalRamp": [
+          "oklch(15% 0.041 134.3)",
+          "oklch(27% 0.051 134.3)",
+          "oklch(39% 0.060 134.3)",
+          "oklch(51% 0.070 134.3)",
+          "oklch(63% 0.067 134.3)",
+          "oklch(75% 0.057 134.3)",
+          "oklch(86% 0.048 134.3)",
+          "oklch(95% 0.041 134.3)"
+        ]
+      },
+      "butter-paper": {
+        "role": "tertiary",
+        "displayName": "Butter Paper",
+        "canonical": "oklch(92.4% 0.055 89.9)",
+        "tonalRamp": [
+          "oklch(15% 0.031 89.9)",
+          "oklch(27% 0.038 89.9)",
+          "oklch(39% 0.045 89.9)",
+          "oklch(51% 0.052 89.9)",
+          "oklch(63% 0.050 89.9)",
+          "oklch(75% 0.043 89.9)",
+          "oklch(86% 0.036 89.9)",
+          "oklch(95% 0.031 89.9)"
+        ]
+      },
+      "butter-wax": {
+        "role": "secondary",
+        "displayName": "Butter Wax",
+        "canonical": "oklch(62.0% 0.119 74.4)",
+        "tonalRamp": [
+          "oklch(15% 0.067 74.4)",
+          "oklch(27% 0.083 74.4)",
+          "oklch(39% 0.098 74.4)",
+          "oklch(51% 0.114 74.4)",
+          "oklch(63% 0.109 74.4)",
+          "oklch(75% 0.093 74.4)",
+          "oklch(86% 0.079 74.4)",
+          "oklch(95% 0.067 74.4)"
+        ]
+      },
+      "butter-mark": {
+        "role": "secondary",
+        "displayName": "Butter Mark",
+        "canonical": "oklch(73.1% 0.115 78.9)",
+        "tonalRamp": [
+          "oklch(15% 0.065 78.9)",
+          "oklch(27% 0.080 78.9)",
+          "oklch(39% 0.095 78.9)",
+          "oklch(51% 0.110 78.9)",
+          "oklch(63% 0.105 78.9)",
+          "oklch(75% 0.090 78.9)",
+          "oklch(86% 0.076 78.9)",
+          "oklch(95% 0.065 78.9)"
+        ]
+      },
+      "powder-paper": {
+        "role": "tertiary",
+        "displayName": "Powder Paper",
+        "canonical": "oklch(91.4% 0.020 250.4)",
+        "tonalRamp": [
+          "oklch(15% 0.011 250.4)",
+          "oklch(27% 0.014 250.4)",
+          "oklch(39% 0.017 250.4)",
+          "oklch(51% 0.019 250.4)",
+          "oklch(63% 0.018 250.4)",
+          "oklch(75% 0.016 250.4)",
+          "oklch(86% 0.013 250.4)",
+          "oklch(95% 0.011 250.4)"
+        ]
+      },
+      "powder-wax": {
+        "role": "secondary",
+        "displayName": "Powder Wax",
+        "canonical": "oklch(47.7% 0.095 261.4)",
+        "tonalRamp": [
+          "oklch(15% 0.053 261.4)",
+          "oklch(27% 0.066 261.4)",
+          "oklch(39% 0.078 261.4)",
+          "oklch(51% 0.091 261.4)",
+          "oklch(63% 0.086 261.4)",
+          "oklch(75% 0.074 261.4)",
+          "oklch(86% 0.063 261.4)",
+          "oklch(95% 0.053 261.4)"
+        ]
+      },
+      "powder-mark": {
+        "role": "secondary",
+        "displayName": "Powder Mark",
+        "canonical": "oklch(67.3% 0.073 261.2)",
+        "tonalRamp": [
+          "oklch(15% 0.041 261.2)",
+          "oklch(27% 0.051 261.2)",
+          "oklch(39% 0.061 261.2)",
+          "oklch(51% 0.070 261.2)",
+          "oklch(63% 0.067 261.2)",
+          "oklch(75% 0.057 261.2)",
+          "oklch(86% 0.049 261.2)",
+          "oklch(95% 0.041 261.2)"
+        ]
+      }
+    },
+    "envelopeFamilies": {
+      "blush": {
+        "back": "#f6d9dc",
+        "side": "#fae4e6",
+        "bottom": "#f8dee1",
+        "flap": "#f3cfd4",
+        "liner": "#fbe8ea",
+        "wax": "#b5263c",
+        "mark": "#d4697a",
+        "linerPrint": "strawberries"
+      },
+      "sage": {
+        "back": "#dbe5d2",
+        "side": "#e5ecdd",
+        "bottom": "#e1e9d8",
+        "flap": "#d3dfc8",
+        "liner": "#eef3e8",
+        "wax": "#56704a",
+        "mark": "#85a274",
+        "linerPrint": "white flowers"
+      },
+      "butter": {
+        "back": "#f4e5bd",
+        "side": "#f8edcf",
+        "bottom": "#f6e9c6",
+        "flap": "#efdcae",
+        "liner": "#f8edd2",
+        "wax": "#b07a22",
+        "mark": "#cf9f4c",
+        "linerPrint": "16px gingham"
+      },
+      "powder": {
+        "back": "#d9e4f0",
+        "side": "#e4ecf5",
+        "bottom": "#dfe8f2",
+        "flap": "#cfdcec",
+        "liner": "#e8eff7",
+        "wax": "#3e5c92",
+        "mark": "#7d97c4",
+        "linerPrint": "confetti dots"
+      }
+    },
+    "monogramWax": {
+      "value": "#8e1d31",
+      "purpose": "Deeper strawberry wax for the static sign-off monogram only."
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "The 'Happy Birthday,' greeting only."
+      },
+      "script-display": {
+        "displayName": "Script Display",
+        "purpose": "Her name beneath the greeting, in Blush Type."
+      },
+      "script-headline": {
+        "displayName": "Script Headline",
+        "purpose": "Section headings set on the desk ('us')."
+      },
+      "script-title": {
+        "displayName": "Script Title",
+        "purpose": "Letter salutation in family wax; 4rem at 760px and up."
+      },
+      "body": {
+        "displayName": "Letter Body",
+        "purpose": "Letter text in Berry Ink; 1.25rem at 760px and up."
+      },
+      "caption": {
+        "displayName": "Italic Caption",
+        "purpose": "Keepsake caption (1.15rem) and the open hint (1.05rem)."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Photo counter; the sign-off date uses 0.75rem at 0.3em tracking."
+      }
+    },
+    "shadows": [
+      {
+        "name": "paper",
+        "value": "0 1px 1px rgba(70,8,22,.18), 0 6px 12px -4px rgba(70,8,22,.22), 0 22px 40px -14px rgba(70,8,22,.42)",
+        "purpose": "Envelopes, letter sheets, keepsake, photo prints."
+      },
+      {
+        "name": "wax",
+        "value": "drop-shadow(0 2px 2px rgba(60,10,20,.35)) drop-shadow(0 8px 10px rgba(60,10,20,.25))",
+        "purpose": "Wax seals (filter, follows the organic outline)."
+      },
+      {
+        "name": "tape",
+        "value": "0 1px 2px rgba(70,8,22,.18)",
+        "purpose": "Washi tape lying nearly flat."
+      },
+      {
+        "name": "script-lift",
+        "value": "0 .04em .12em rgba(70,8,22,.25)",
+        "purpose": "Text-shadow under the script name on the desk."
+      }
+    ],
+    "textures": [
+      {
+        "name": "grain",
+        "value": "SVG feTurbulence fractalNoise, baseFrequency .85, 2 octaves, 180px tile",
+        "purpose": "Multiply overlay: 9% over the desk, 7% on sheets, 12% on photo placeholders."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(.16, 1, .3, 1)",
+        "purpose": "Settling onto the desk, title rise, photo return."
+      },
+      {
+        "name": "ease-paper",
+        "value": "cubic-bezier(.3, 1.18, .5, 1)",
+        "purpose": "Soft spring: the letter rising out of the envelope and the seal hover."
+      },
+      {
+        "name": "ease-fold",
+        "value": "cubic-bezier(.5, 0, .2, 1)",
+        "purpose": "Flap folding back, letter unfolding on its crease, script name being written."
+      },
+      {
+        "name": "open-sequence",
+        "value": "flap .75s @.12s; letter rise .85s @.5s; unfold 1s @1.25s; flatten @2.35s",
+        "purpose": "Choreography of opening one letter."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "all animation and transition durations .01ms, no delays",
+        "purpose": "Everything lands in its end state; no hearts."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide",
+        "value": "760px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Wax Seal",
+      "kind": "button",
+      "refersTo": "wax-seal",
+      "description": "The only control on an envelope: an embossed poured-wax seal tinted by its family; breaking it opens the letter.",
+      "html": "<div style=\"background:radial-gradient(120% 60% at 50% 0%,var(--ground-lit,#cf4357) 0%,transparent 60%),radial-gradient(100% 50% at 50% 100%,var(--ground-deep,#ad2f43) 0%,transparent 70%),var(--ground,#c93a4d);padding:40px 24px;display:grid;place-items:center;\"><button class=\"ds-seal\" type=\"button\" aria-label=\"Break the seal\"><span class=\"ds-seal-wax\"><svg viewBox=\"0 0 40 40\" fill=\"currentColor\" aria-hidden=\"true\"><ellipse cx=\"15.2\" cy=\"12\" rx=\"3.6\" ry=\"9\" transform=\"rotate(-11 15.2 12)\"/><ellipse cx=\"24.8\" cy=\"12\" rx=\"3.6\" ry=\"9\" transform=\"rotate(11 24.8 12)\"/><ellipse cx=\"20\" cy=\"26.5\" rx=\"10\" ry=\"8.6\"/></svg></span></button></div>",
+      "css": ".ds-seal{position:relative;width:76px;height:76px;padding:0;border:0;background:none;cursor:pointer;--wax:#b5263c;filter:drop-shadow(0 2px 2px rgba(60,10,20,.35)) drop-shadow(0 8px 10px rgba(60,10,20,.25));transition:transform .45s cubic-bezier(.3,1.18,.5,1);} .ds-seal:hover{transform:scale(1.05) rotate(-4deg);} .ds-seal:active{transform:scale(.94);} .ds-seal:focus-visible{outline:2px solid #fff4ef;outline-offset:5px;border-radius:6px;} .ds-seal-wax{position:absolute;inset:0;display:grid;place-items:center;border-radius:47% 53% 50% 50% / 52% 48% 52% 48%;background:radial-gradient(circle at 24% 22%,rgba(255,255,255,.42) 0,transparent 9%),radial-gradient(circle at 50% 50%,color-mix(in oklab,var(--wax),black 6%) 0 54%,color-mix(in oklab,var(--wax),black 34%) 56%,color-mix(in oklab,var(--wax),white 18%) 59.5%,var(--wax) 66%,color-mix(in oklab,var(--wax),black 30%) 100%);} .ds-seal-wax svg{width:46%;height:46%;color:color-mix(in oklab,var(--wax),black 30%);filter:drop-shadow(.9px 1.1px 0 color-mix(in oklab,var(--wax),white 30%)) drop-shadow(-.7px -.9px 0 rgba(0,0,0,.35));}"
+    },
+    {
+      "name": "Envelope (Blush)",
+      "kind": "card",
+      "refersTo": "envelope-blush",
+      "description": "Tinted envelope stock with shaded back, pocket panels, and pointed flap; one of four families.",
+      "html": "<div style=\"background:radial-gradient(120% 60% at 50% 0%,var(--ground-lit,#cf4357) 0%,transparent 60%),radial-gradient(100% 50% at 50% 100%,var(--ground-deep,#ad2f43) 0%,transparent 70%),var(--ground,#c93a4d);padding:40px 24px;display:grid;place-items:center;\"><div class=\"ds-env\"><div class=\"ds-env-flap\"></div><div class=\"ds-env-pocket\"></div></div></div>",
+      "css": ".ds-env{position:relative;width:min(350px,88vw);aspect-ratio:1/.72;border-radius:5px;background:linear-gradient(180deg,rgba(70,20,30,.14),rgba(70,20,30,0) 45%),#f6d9dc;box-shadow:0 1px 1px rgba(70,8,22,.18), 0 6px 12px -4px rgba(70,8,22,.22), 0 22px 40px -14px rgba(70,8,22,.42);overflow:hidden;rotate:-1.2deg;} .ds-env-pocket{position:absolute;inset:0;background:#f8dee1;clip-path:polygon(0 0,46% 55%,54% 55%,100% 0,100% 100%,0 100%);} .ds-env-flap{position:absolute;inset:0 0 42% 0;z-index:1;background:linear-gradient(180deg,rgba(255,255,255,.35),rgba(255,255,255,0) 40%),#f3cfd4;clip-path:polygon(0 0,100% 0,100% 3%,55% 93%,50% 100%,45% 93%,0 3%);}"
+    },
+    {
+      "name": "Letter Sheet",
+      "kind": "card",
+      "refersTo": "letter-sheet",
+      "description": "Cotton letter paper with a center crease, berry-ink Petrona text under a family-tone mark or script salutation.",
+      "html": "<div style=\"background:radial-gradient(120% 60% at 50% 0%,var(--ground-lit,#cf4357) 0%,transparent 60%),radial-gradient(100% 50% at 50% 100%,var(--ground-deep,#ad2f43) 0%,transparent 70%),var(--ground,#c93a4d);padding:40px 24px;display:grid;place-items:center;\"><article class=\"ds-sheet\"><h3 class=\"ds-sheet-hi\">Hiền</h3><p>Happy birthday to my favorite person in the world!</p></article></div>",
+      "css": ".ds-sheet{width:min(308px,80vw);padding:44px 30px 52px;text-align:center;color:#4a1d2a;font:380 1.0625rem/1.62 Petrona,Georgia,serif;background:linear-gradient(180deg,rgba(74,29,42,0) 46%,rgba(74,29,42,.035) 49.8%,rgba(255,255,255,.5) 50.2%,rgba(255,255,255,0) 54%),#fffaf7;border-radius:2px;box-shadow:0 1px 1px rgba(70,8,22,.18), 0 6px 12px -4px rgba(70,8,22,.22), 0 22px 40px -14px rgba(70,8,22,.42);} .ds-sheet p{margin:0;} .ds-sheet-hi{margin:0 0 18px;font:400 3.1rem/1.1 'Imperial Script',Prata,cursive;color:#b5263c;}"
+    },
+    {
+      "name": "Instant Print Keepsake",
+      "kind": "card",
+      "refersTo": "instant-print",
+      "description": "A tilted cotton print taped down with torn-end washi tape; italic caption under a small strawberry mark.",
+      "html": "<div style=\"background:radial-gradient(120% 60% at 50% 0%,var(--ground-lit,#cf4357) 0%,transparent 60%),radial-gradient(100% 50% at 50% 100%,var(--ground-deep,#ad2f43) 0%,transparent 70%),var(--ground,#c93a4d);padding:40px 24px;display:grid;place-items:center;\"><figure class=\"ds-print\"><span class=\"ds-tape\"></span><span class=\"ds-print-img\"></span><figcaption><svg viewBox=\"0 0 40 40\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M20 11 C9 9.5 4.5 16.5 6.5 23.5 C8.5 31 15.5 36.5 20 38 C24.5 36.5 31.5 31 33.5 23.5 C35.5 16.5 31 9.5 20 11Z\"/><path d=\"M11 11 L16 9 L20 3.5 L24 9 L29 11 L24 13 L20 11.5 L16 13Z\"/></svg>because you deserve all the sweetness</figcaption></figure></div>",
+      "css": ".ds-print{position:relative;margin:0;padding:14px 14px 0;background:#fffaf7;border-radius:2px;box-shadow:0 1px 1px rgba(70,8,22,.18), 0 6px 12px -4px rgba(70,8,22,.22), 0 22px 40px -14px rgba(70,8,22,.42);rotate:2.4deg;} .ds-print-img{display:block;width:200px;aspect-ratio:1;background:#f6d9dc;} .ds-print figcaption{display:flex;flex-direction:column;align-items:center;gap:6px;max-width:200px;padding:14px 4px 20px;font:italic 1.15rem/1.35 Petrona,Georgia,serif;text-align:center;color:#4a1d2a;} .ds-print figcaption svg{width:18px;height:18px;color:#d4697a;} .ds-tape{position:absolute;top:-15px;left:50%;width:104px;height:30px;translate:-50% 0;rotate:-5deg;background:repeating-linear-gradient(90deg,rgba(255,255,255,.22) 0 6px,transparent 6px 12px),rgba(247,196,205,.78);box-shadow:0 1px 2px rgba(70,8,22,.18);clip-path:polygon(0 6%,4% 0,8% 7%,12% 0,88% 0,92% 6%,96% 0,100% 6%,100% 94%,96% 100%,92% 93%,88% 100%,12% 100%,8% 94%,4% 100%,0 93%);}"
+    },
+    {
+      "name": "Photo Stack",
+      "kind": "custom",
+      "refersTo": "instant-print",
+      "description": "A tap-to-shuffle pile of 5:6 instant prints at staggered tilts, with a tracked cream counter beneath.",
+      "html": "<div style=\"background:radial-gradient(120% 60% at 50% 0%,var(--ground-lit,#cf4357) 0%,transparent 60%),radial-gradient(100% 50% at 50% 100%,var(--ground-deep,#ad2f43) 0%,transparent 70%),var(--ground,#c93a4d);padding:40px 24px;display:grid;place-items:center;\"><button class=\"ds-stack\" type=\"button\" aria-label=\"Show the next photo\"><span class=\"ds-snap\" style=\"--t:4.5deg;--l:9px\"></span><span class=\"ds-snap\" style=\"--t:-2deg;--l:6px\"></span><span class=\"ds-snap\" style=\"--t:3.5deg;--l:3px\"></span><span class=\"ds-snap ds-snap-top\" style=\"--t:-1.5deg;--l:0px\"><span class=\"ds-snap-photo\"><svg viewBox=\"0 0 40 40\" fill=\"currentColor\" aria-hidden=\"true\"><circle cx=\"20\" cy=\"11.5\" r=\"6.2\"/><circle cx=\"28.1\" cy=\"17.4\" r=\"6.2\"/><circle cx=\"25\" cy=\"26.9\" r=\"6.2\"/><circle cx=\"15\" cy=\"26.9\" r=\"6.2\"/><circle cx=\"11.9\" cy=\"17.4\" r=\"6.2\"/></svg></span></span></button><p class=\"ds-count\">1 / 5</p></div>",
+      "css": ".ds-stack{position:relative;width:min(250px,66vw);aspect-ratio:5/6;padding:0;border:0;background:none;cursor:pointer;} .ds-snap{position:absolute;inset:0;padding:12px 12px 0;background:#fffaf7;border-radius:2px;box-shadow:0 1px 1px rgba(70,8,22,.18), 0 6px 12px -4px rgba(70,8,22,.22), 0 22px 40px -14px rgba(70,8,22,.42);transform:translate(0,var(--l)) rotate(var(--t));transition:transform .6s cubic-bezier(.16,1,.3,1);} .ds-stack:hover .ds-snap-top{transform:translate(6px,-4px) rotate(1deg);} .ds-stack:focus-visible{outline:2px solid #fff4ef;outline-offset:5px;border-radius:6px;} .ds-snap-photo{display:grid;place-items:center;width:100%;aspect-ratio:1;background:radial-gradient(80% 80% at 30% 20%,rgba(255,255,255,.45),transparent 70%),#dbe5d2;} .ds-snap-photo svg{width:22%;height:22%;color:#b7c8a8;} .ds-count{margin:26px 0 0;font:500 .8rem 'Be Vietnam Pro',system-ui,sans-serif;letter-spacing:.12em;font-variant-numeric:tabular-nums;color:#fff4ef;}"
+    },
+    {
+      "name": "Desk Title",
+      "kind": "custom",
+      "refersTo": "",
+      "description": "Prata greeting in cream with her name in Imperial Script beneath, on the strawberry desk.",
+      "html": "<div style=\"background:radial-gradient(120% 60% at 50% 0%,var(--ground-lit,#cf4357) 0%,transparent 60%),radial-gradient(100% 50% at 50% 100%,var(--ground-deep,#ad2f43) 0%,transparent 70%),var(--ground,#c93a4d);padding:40px 24px;display:grid;place-items:center;\"><h1 class=\"ds-title\"><span class=\"ds-title-line\">Happy Birthday,</span><span class=\"ds-title-name\">Hiền</span></h1><p class=\"ds-hint\">tap the seal to open</p></div>",
+      "css": ".ds-title{margin:0;font-weight:400;text-align:center;} .ds-title-line{display:block;font:400 clamp(2.3rem,10.5vw,3.6rem)/1.05 Prata,'Times New Roman',serif;letter-spacing:-.015em;color:#fff4ef;} .ds-title-name{display:block;margin-top:-.06em;font:400 clamp(5rem,20vw,7rem)/.95 'Imperial Script',Prata,cursive;color:#ffd9de;text-shadow:0 .04em .12em rgba(70,8,22,.25);} .ds-hint{margin:22px 0 0;text-align:center;font:italic 1.05rem Petrona,Georgia,serif;color:#fff4ef;}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Boutique Letter Set",
+    "overview": "A single column of fine stationery laid on a strawberry-red desk. Everything on the page is a physical paper object: tinted envelopes with printed liners, embossed wax seals, cotton letter sheets folded in half, an instant print taped down with washi, a stack of prints you can shuffle. The desk itself is a warm red field lit from above and shaded at the foot, with a fine grain laid over everything so no surface reads as flat screen color.\n\nThe system is polished and elevated but cute in its small details: the motifs (bunny, flower, carrot, sparkle, strawberry, heart) are tiny filled marks used like a stationer's brand, pressed into wax, printed on liners, or set above a letter's first line. Type does the emotional work: a classical display serif for the greeting, a formal copperplate script for her name and the hand-written moments, a soft text serif for the letters, and a small tracked sans only for counters and dates.\n\nMotion is paper physics. Things settle onto the desk as they arrive, a seal lifts away when broken, a flap folds back, the letter rises out of its pocket with a slight spring and then unfolds on its center crease. It explicitly rejects the flat, hand-drawn clip-art look and the generic pink e-card.",
+    "keyCharacteristics": [
+      "Strawberry-red ground with top light, foot shade, and a multiply grain over the whole page.",
+      "Four tinted envelope families (blush, sage, butter, powder), each with its own liner print, wax, and mark tone.",
+      "Cotton paper for every sheet and print; berry ink for all text on paper.",
+      "Layered, tinted shadows that read as paper resting on a desk, never as UI cards.",
+      "Small filled-silhouette motifs, embossed or printed, never illustrated scenes.",
+      "Every object sits at a slight hand-placed tilt."
+    ],
+    "rules": [
+      {
+        "name": "The Desk and Paper Rule",
+        "body": "Type is either on the desk (Cream or Blush Type) or on paper (Berry Ink or a family's wax/mark). Nothing else carries text.",
+        "section": "colors"
+      },
+      {
+        "name": "The Family Rule",
+        "body": "An envelope's paper, liner, seal, letter mark, and sheet-back script all come from one family. Never mix a sage seal onto a blush envelope.",
+        "section": "colors"
+      },
+      {
+        "name": "The Script Is for Her Rule",
+        "body": "Imperial Script is reserved for her name, salutations, and short hand-lettered words. It never sets a sentence.",
+        "section": "typography"
+      },
+      {
+        "name": "The Quiet Sans Rule",
+        "body": "Be Vietnam Pro appears only at label size, for numerals and dates. It is never a heading.",
+        "section": "typography"
+      },
+      {
+        "name": "The Tinted Shadow Rule",
+        "body": "Shadows are always a berry tone over the red desk. A grey shadow on this ground reads as dirt.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Grain Rule",
+        "body": "The desk and every paper surface carry the fractal-noise grain at low opacity (7–12%, multiply). Flat fills look like a screen; grain makes them paper.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do build every new object as a paper thing on the desk: cotton or tinted stock, 2–5px corners, the Paper shadow, grain.",
+      "Do pick one envelope family per object and draw seal, liner, mark, and script from it.",
+      "Do set type on the desk in Cream or Blush Type and type on paper in Berry Ink or the family wax.",
+      "Do tilt each object slightly and give it its own vertical step of at least clamp(84px, 14svh, 140px).",
+      "Do move things like paper: settle in on the ease-out curve, rise on the soft spring, fold on the fold curve, and collapse all of it under reduced motion.",
+      "Do keep motifs as small filled marks (about 18–32px on paper, about 46% of a seal)."
+    ],
+    "donts": [
+      "Don't draw hand-drawn, clip-art, or scene illustration; the flat dollhouse look was rejected.",
+      "Don't let it read as a generic pink e-card: no flat pink fills, no stock hearts-and-balloons ornament.",
+      "Don't use neutral grey or black shadows on the red ground.",
+      "Don't set sentences in Imperial Script or headings in Be Vietnam Pro.",
+      "Don't fill the screen with motion: a handful of paper hearts on the final letter is the ceiling, never confetti."
+    ]
+  }
+}
