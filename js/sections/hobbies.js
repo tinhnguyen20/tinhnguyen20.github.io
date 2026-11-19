@@ -1,7 +1,16 @@
 const hobbies = [
-    { name: "Hobby One", note: "A short note about it." },
-    { name: "Hobby Two", note: "A short note about it." },
-    { name: "Hobby Three", note: "A short note about it." },
+    {
+        name: "Cars & HPDE",
+        note: "30+ track days since 2021 in two Miatas: a '99 NB with full aero and a '21 ND, street-modified, both on slicks. I do my own maintenance. Favorite tracks, in order: Sonoma, Thunderhill East/West, Laguna Seca, Buttonwillow. Best laps: 1:28s at Thunderhill West, and 1:58s at Sonoma in both cars. They were built 22 years apart and run the same lap time, which tells you who the limiting factor is.",
+    },
+    {
+        name: "Home renovation",
+        note: "Mostly self-taught. Measure twice, cut once, and budget for a third trip to the hardware store.",
+    },
+    {
+        name: "Gardening",
+        note: "The slowest feedback loop in my life. A bad deploy shows up in minutes; a bad watering schedule shows up in three weeks.",
+    },
 ];
 
 export default {
