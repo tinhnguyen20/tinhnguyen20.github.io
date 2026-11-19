@@ -2,39 +2,42 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Tinh Nguyen — Developer Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="js/app.js" type="module" defer></script>
-    <style>
-        :root {
-            --primary-100: #2E8B57;
-            --primary-200: #61bc84;
-            --primary-300: #c6ffe6;
-            --accent-100: #8FBC8F;
-            --accent-200: #345e37;
-            --text-100: #FFFFFF;
-            --text-200: #e0e0e0;
-            --bg-100: #1E1E1E;
-            --bg-200: #2d2d2d;
-            --bg-300: #454545;
-        }
-    </style>
+    <title>Tinh Nguyen, Software Engineer</title>
+    <meta name="description" content="Tinh Nguyen builds platforms other engineers build on: LLM agent tooling, RAG pipelines, and GPU-backed infrastructure. Open to applied LLM, agent infrastructure, and platform roles.">
+    <meta name="theme-color" content="#161a18">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%277%27 fill=%27%23161a18%27/%3E%3Cpath d=%27M9 10h14M16 10v13%27 stroke=%27%2361bc84%27 stroke-width=%274%27 stroke-linecap=%27round%27/%3E%3C/svg%3E">
+    <link rel="preload" href="fonts/schibsted-grotesk.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="styles.css">
+    <script src="js/app.js" type="module"></script>
 </head>
-<body class="bg-[var(--bg-100)] text-[var(--text-200)]">
-    <div class="flex min-h-screen">
-        <aside class="w-64 shrink-0 bg-[var(--bg-200)] text-[var(--text-200)] flex flex-col">
-            <div class="px-6 py-8">
-                <p class="text-lg font-semibold text-[var(--text-100)]">Tinh Nguyen</p>
-                <p class="text-sm text-[var(--accent-100)]">Software Engineer</p>
-            </div>
-            <nav id="sidebar-nav" class="flex-1 px-3 space-y-1"></nav>
-            <div class="px-6 py-6 text-xs text-[var(--text-200)]/60">
-                &copy; <span id="year"></span> Tinh Nguyen
-            </div>
-        </aside>
+<body>
+    <a class="skip-link" href="#content">Skip to content</a>
 
-        <main id="main-content" class="flex-1 px-8 py-10 md:px-16 md:py-16 max-w-4xl"></main>
+    <div class="shell">
+        <header class="intro">
+            <div>
+                <h1 class="intro-name">Tinh Nguyen</h1>
+                <p class="intro-role">Software Engineer</p>
+                <p class="intro-pitch">
+                    Most recently at Cisco: a no-code LLM agent platform, RAG pipelines, and
+                    GPU-backed infrastructure used by 12+ teams daily.
+                </p>
+                <p class="intro-status">
+                    <span class="status-dot" aria-hidden="true"></span>
+                    Open to applied LLM, agent infrastructure, and platform roles. Bay Area or remote.
+                </p>
+                <div class="actions" id="intro-actions"></div>
+
+                <nav class="toc" aria-label="Sections">
+                    <ol id="toc"></ol>
+                </nav>
+            </div>
+
+            <ul class="socials" id="socials" aria-label="Links"></ul>
+        </header>
+
+        <main id="content" class="content" tabindex="-1"></main>
     </div>
 </body>
 </html>

@@ -1,0 +1,386 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-19T00:00:00Z",
+  "title": "Design System: Tinh Nguyen",
+  "extensions": {
+    "colorMeta": {
+      "ground": {
+        "role": "neutral",
+        "displayName": "Charcoal Ground",
+        "tonalRamp": [
+          "#0f1211",
+          "#161a18",
+          "#1e2320",
+          "#2a312d",
+          "#3a443e",
+          "#7f8c84",
+          "#a3b1a8",
+          "#e9efe9"
+        ]
+      },
+      "raised": {
+        "role": "neutral",
+        "displayName": "Raised Charcoal",
+        "tonalRamp": [
+          "#0f1211",
+          "#161a18",
+          "#1e2320",
+          "#2a312d",
+          "#3a443e",
+          "#7f8c84",
+          "#a3b1a8",
+          "#e9efe9"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "tonalRamp": [
+          "#0f1211",
+          "#161a18",
+          "#1e2320",
+          "#2a312d",
+          "#3a443e",
+          "#7f8c84",
+          "#a3b1a8",
+          "#e9efe9"
+        ]
+      },
+      "line-strong": {
+        "role": "neutral",
+        "displayName": "Strong Hairline",
+        "tonalRamp": [
+          "#0f1211",
+          "#161a18",
+          "#1e2320",
+          "#2a312d",
+          "#3a443e",
+          "#7f8c84",
+          "#a3b1a8",
+          "#e9efe9"
+        ]
+      },
+      "bone": {
+        "role": "neutral",
+        "displayName": "Bone",
+        "tonalRamp": [
+          "#0f1211",
+          "#161a18",
+          "#1e2320",
+          "#2a312d",
+          "#3a443e",
+          "#7f8c84",
+          "#a3b1a8",
+          "#e9efe9"
+        ]
+      },
+      "body": {
+        "role": "neutral",
+        "displayName": "Sage",
+        "tonalRamp": [
+          "#0f1211",
+          "#161a18",
+          "#1e2320",
+          "#2a312d",
+          "#3a443e",
+          "#7f8c84",
+          "#a3b1a8",
+          "#e9efe9"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Lichen",
+        "tonalRamp": [
+          "#0f1211",
+          "#161a18",
+          "#1e2320",
+          "#2a312d",
+          "#3a443e",
+          "#7f8c84",
+          "#a3b1a8",
+          "#e9efe9"
+        ]
+      },
+      "accent": {
+        "role": "primary",
+        "displayName": "Sea Green",
+        "tonalRamp": [
+          "#0d2618",
+          "#16402a",
+          "#1f5a3b",
+          "#2e8b57",
+          "#47a86f",
+          "#61bc84",
+          "#8fd3a8",
+          "#c6ffe6"
+        ]
+      },
+      "accent-hover": {
+        "role": "primary",
+        "displayName": "Pale Sea Green",
+        "tonalRamp": [
+          "#0d2618",
+          "#16402a",
+          "#1f5a3b",
+          "#2e8b57",
+          "#47a86f",
+          "#61bc84",
+          "#8fd3a8",
+          "#c6ffe6"
+        ]
+      },
+      "accent-mint": {
+        "role": "primary",
+        "displayName": "Mint Flash",
+        "tonalRamp": [
+          "#0d2618",
+          "#16402a",
+          "#1f5a3b",
+          "#2e8b57",
+          "#47a86f",
+          "#61bc84",
+          "#8fd3a8",
+          "#c6ffe6"
+        ]
+      },
+      "accent-deep": {
+        "role": "primary",
+        "displayName": "Deep Sea Green",
+        "tonalRamp": [
+          "#0d2618",
+          "#16402a",
+          "#1f5a3b",
+          "#2e8b57",
+          "#47a86f",
+          "#61bc84",
+          "#8fd3a8",
+          "#c6ffe6"
+        ]
+      },
+      "accent-wash": {
+        "role": "primary",
+        "displayName": "Green Wash",
+        "tonalRamp": [
+          "#0d2618",
+          "#16402a",
+          "#1f5a3b",
+          "#2e8b57",
+          "#47a86f",
+          "#61bc84",
+          "#8fd3a8",
+          "#c6ffe6"
+        ]
+      },
+      "on-accent": {
+        "role": "neutral",
+        "displayName": "Pit Black",
+        "tonalRamp": [
+          "#0f1211",
+          "#161a18",
+          "#1e2320",
+          "#2a312d",
+          "#3a443e",
+          "#7f8c84",
+          "#a3b1a8",
+          "#e9efe9"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "The name in the intro column, once per page."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "The contact close."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Desktop section headings; mobile switches to a sticky uppercase 0.8125rem bar."
+      },
+      "title-sm": {
+        "displayName": "Title Small",
+        "purpose": "Row titles and subheads."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Running prose, max 38rem."
+      },
+      "body-sm": {
+        "displayName": "Body Small",
+        "purpose": "Row descriptions and bullets."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Scroll-spy nav labels, uppercase."
+      },
+      "data": {
+        "displayName": "Data",
+        "purpose": "Row dates and tags, JetBrains Mono with tabular numerals."
+      },
+      "data-lg": {
+        "displayName": "Data Large",
+        "purpose": "Lap times in the timing sheet."
+      }
+    },
+    "shadows": [
+      {
+        "name": "row-lift",
+        "value": "0 14px 32px -18px rgb(0 0 0 / 0.75)",
+        "purpose": "Hovered experience/project row, desktop hover pointers only."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "The only easing curve; 0.2s links, 0.25s buttons, 0.35s rows, 0.45s nav line."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "transition-duration: 0.01ms; scroll-behavior: auto",
+        "purpose": "Applied under prefers-reduced-motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "sm",
+        "value": "640px"
+      },
+      {
+        "name": "lg",
+        "value": "1024px"
+      }
+    ],
+    "surfaces": [
+      {
+        "name": "sticky-heading",
+        "value": "background: rgb(22 26 24 / 0.94); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line)",
+        "purpose": "Mobile sticky section heading."
+      }
+    ],
+    "focus": {
+      "value": "outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 4px",
+      "purpose": "Global focus-visible ring; rows draw it on the stretched link at 2px offset."
+    }
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "First available contact action (Email, else Resume).",
+      "html": "<a class=\"ds-btn ds-btn-primary\" href=\"#\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><rect width=\"20\" height=\"16\" x=\"2\" y=\"4\" rx=\"2\"/><path d=\"m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7\"/></svg>Email me</a>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;gap:.55rem;min-height:2.75rem;padding:.65rem 1.1rem;border:1px solid transparent;border-radius:6px;font:600 .9375rem/1 var(--sans);text-decoration:none;transition:background-color .25s var(--ease-out),border-color .25s var(--ease-out),color .25s var(--ease-out),transform .25s var(--ease-out)}.ds-btn svg{width:1.05rem;height:1.05rem;flex:none}.ds-btn:active{transform:translateY(1px)}.ds-btn:focus-visible{outline:2px solid var(--accent);outline-offset:3px}.ds-btn-primary{background:var(--accent);color:var(--on-accent)}.ds-btn-primary:hover{background:var(--accent-hover);color:var(--on-accent)}"
+    },
+    {
+      "name": "Quiet Button",
+      "kind": "button",
+      "refersTo": "button-quiet",
+      "description": "Secondary action beside the primary.",
+      "html": "<a class=\"ds-btn ds-btn-quiet\" href=\"#\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4\"/><path d=\"m7 10 5 5 5-5\"/><path d=\"M12 15V3\"/></svg>Resume</a>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;gap:.55rem;min-height:2.75rem;padding:.65rem 1.1rem;border:1px solid transparent;border-radius:6px;font:600 .9375rem/1 var(--sans);text-decoration:none;transition:border-color .25s var(--ease-out),color .25s var(--ease-out),transform .25s var(--ease-out)}.ds-btn svg{width:1.05rem;height:1.05rem;flex:none}.ds-btn:active{transform:translateY(1px)}.ds-btn:focus-visible{outline:2px solid var(--accent);outline-offset:3px}.ds-btn-quiet{border-color:var(--line-strong);color:var(--bone)}.ds-btn-quiet:hover{border-color:var(--accent);color:var(--accent)}"
+    },
+    {
+      "name": "Tag",
+      "kind": "chip",
+      "refersTo": "tag",
+      "description": "Static technology label on a row.",
+      "html": "<ul class=\"ds-tags\"><li>CrewAI</li><li>React Flow</li><li>RAG</li></ul>",
+      "css": ".ds-tags{display:flex;flex-wrap:wrap;gap:.45rem;margin:0;padding:0;list-style:none}.ds-tags li{padding:.35rem .7rem;border-radius:999px;background:var(--accent-wash);color:var(--accent);font:500 .75rem/1.2 var(--mono)}"
+    },
+    {
+      "name": "Scroll-spy Nav",
+      "kind": "nav",
+      "refersTo": "",
+      "description": "Desktop section nav; the active line grows and turns green.",
+      "html": "<nav class=\"ds-toc\"><ol><li><a href=\"#\"><span class=\"ds-toc-line\"></span>About</a></li><li><a href=\"#\" aria-current=\"true\"><span class=\"ds-toc-line\"></span>Experience</a></li><li><a href=\"#\"><span class=\"ds-toc-line\"></span>Projects</a></li></ol></nav>",
+      "css": ".ds-toc ol{margin:0;padding:0;list-style:none}.ds-toc a{display:inline-flex;align-items:center;gap:1rem;padding:.55rem 0;color:var(--muted);font:700 .75rem var(--sans);letter-spacing:.14em;text-transform:uppercase;text-decoration:none}.ds-toc-line{width:2rem;height:1px;background:currentColor;transition:width .45s var(--ease-out),background-color .2s var(--ease-out)}.ds-toc a:hover,.ds-toc a[aria-current=true]{color:var(--bone)}.ds-toc a:hover .ds-toc-line{width:3rem}.ds-toc a[aria-current=true] .ds-toc-line{width:4.5rem;background:var(--accent)}.ds-toc a:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:4px}"
+    },
+    {
+      "name": "Experience Row",
+      "kind": "custom",
+      "refersTo": "row",
+      "description": "Date column plus body; lifts on hover while siblings dim.",
+      "html": "<ol class=\"ds-rows\"><li class=\"ds-row\"><p class=\"ds-meta\"><time>2020 — 2025</time></p><div><h3 class=\"ds-title\">Software Engineer <span class=\"ds-org\">· Cisco</span></h3><p class=\"ds-sub\">San Jose, CA</p><ul class=\"ds-list\"><li>Built a no-code LLM agent platform used by 12+ teams.</li></ul></div></li><li class=\"ds-row\"><p class=\"ds-meta\"><time>2018 — 2020</time></p><div><h3 class=\"ds-title\">Analyst <span class=\"ds-org\">· Accenture</span></h3><p class=\"ds-sub\">San Francisco, CA</p></div></li></ol>",
+      "css": ".ds-rows{display:grid;gap:.75rem;margin:0;padding:0;list-style:none}.ds-row{display:grid;grid-template-columns:8.5rem minmax(0,1fr);gap:1.5rem;padding:1.25rem;border-radius:8px;transition:background-color .35s var(--ease-out),box-shadow .35s var(--ease-out),opacity .35s var(--ease-out)}.ds-row:hover{background:var(--raised);box-shadow:0 14px 32px -18px rgb(0 0 0 / .75)}.ds-rows:hover .ds-row:not(:hover){opacity:.55}.ds-meta{margin:0;padding-top:.25rem;color:var(--muted);font:500 .75rem/1.6 var(--mono);font-variant-numeric:tabular-nums;letter-spacing:.02em;text-transform:uppercase}.ds-title{margin:0;color:var(--bone);font:600 1.0625rem/1.4 var(--sans);letter-spacing:-.005em}.ds-org{color:var(--accent);font-weight:500}.ds-sub{margin:.1rem 0 0;color:var(--muted);font-size:.875rem}.ds-list{margin:.6rem 0 0;padding-left:1.1rem;color:var(--body);font-size:.96875rem;line-height:1.65}.ds-list li::marker{color:var(--accent-deep)}"
+    },
+    {
+      "name": "Timing Sheet",
+      "kind": "custom",
+      "refersTo": "timing-cell",
+      "description": "Hairline-gridded table for lap times and track order.",
+      "html": "<div class=\"ds-timing\"><div class=\"ds-cell\"><p class=\"ds-label\">Best laps</p><table><tr><th>Sonoma</th><td class=\"ds-lap\">1:58</td></tr><tr><th>Thunderhill West</th><td class=\"ds-lap\">1:28</td></tr></table></div><div class=\"ds-cell\"><p class=\"ds-label\">Favorite tracks, in order</p><ol class=\"ds-order\"><li>Thunderhill West</li><li>Sonoma</li></ol></div></div>",
+      "css": ".ds-timing{display:grid;grid-template-columns:1.15fr 1fr;gap:1px;overflow:hidden;border:1px solid var(--line);border-radius:8px;background:var(--line)}.ds-cell{padding:1.1rem 1.25rem 1.2rem;background:var(--ground)}.ds-label{margin:0 0 .75rem;color:var(--muted);font:600 .8125rem var(--sans)}.ds-timing table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}.ds-timing th,.ds-timing td{padding:.4rem 0;text-align:left;font-weight:400;border-top:1px solid var(--line)}.ds-timing tr:first-child th,.ds-timing tr:first-child td{border-top:0}.ds-timing th{color:var(--bone);font:400 .9375rem var(--sans)}.ds-lap{color:var(--accent);font:600 1.5rem/1.2 var(--mono);letter-spacing:-.02em;text-align:right!important;white-space:nowrap}.ds-order{margin:0;padding:0;list-style:none;counter-reset:t}.ds-order li{display:flex;gap:.85rem;padding:.4rem 0;border-top:1px solid var(--line);color:var(--bone);font:400 .9375rem var(--sans);counter-increment:t}.ds-order li:first-child{border-top:0}.ds-order li::before{content:'P' counter(t);min-width:1.75rem;color:var(--accent);font:600 .8125rem/1.75 var(--mono)}"
+    },
+    {
+      "name": "Availability Line",
+      "kind": "custom",
+      "refersTo": "",
+      "description": "Single accent status line with a dot, in the intro.",
+      "html": "<p class=\"ds-status\"><span class=\"ds-dot\"></span>Open to applied LLM, agent infrastructure, and platform roles.</p>",
+      "css": ".ds-status{display:flex;gap:.7rem;max-width:24rem;margin:0;color:var(--accent);font:400 .9375rem/1.55 var(--sans)}.ds-dot{flex:none;width:.5rem;height:.5rem;margin-top:.45rem;border-radius:50%;background:var(--accent)}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Pit Wall",
+    "overview": "**Creative North Star: \"The Pit Wall\"**\n\nA single dark page that reads like a timing screen at a track day: one green on charcoal, data in mono, everything else in a tight grotesk. The intro column holds still on the left (name, role, a short pitch, an availability line, actions, the section nav, socials) while the work scrolls past it on the right. Density is moderate. The ground is charcoal tinted toward the green, text runs from bone for names and headings to sage for prose to a muted grey-green for metadata, and the single sea-green accent marks what is live: links, availability, the active nav line, tags, lap times.\n\nStructure comes from hairlines and type, not boxes. Rows sit flat on the ground until a pointer lands on one; then that row lifts onto the raised surface and its siblings fade back. The one bordered container in the system is the timing sheet, a hairline-gridded table for lap times and track order, where the grid is the content.\n\nThe world rejects the previous tabbed sidebar app, kav3's navy template palette, and numbered section headings.",
+    "keyCharacteristics": [
+      "Two-column split at 1024px and up: a sticky full-height intro at 44%, content at 56%, inside a 1180px shell.",
+      "One green-tinted charcoal ground; one raised surface used only on hover.",
+      "Schibsted Grotesk for everything a person reads; JetBrains Mono only for data.",
+      "Hairline dividers (1px) instead of cards.",
+      "Motion is a single long ease-out curve; nothing bounces."
+    ],
+    "rules": [
+      {
+        "name": "The One Green Rule",
+        "body": "Sea Green is the only hue. Every other color is a tint of the charcoal or a step of the same green. A second hue does not enter this world.",
+        "section": "colors"
+      },
+      {
+        "name": "The Deep Green Fills Rule",
+        "body": "Deep Sea Green is for fills and markers only (selection, bullet markers). Text in green is always Sea Green or lighter.",
+        "section": "colors"
+      },
+      {
+        "name": "The Data-Only Mono Rule",
+        "body": "JetBrains Mono sets dates, tags, lap times, and track positions. It never sets a heading, a sentence, or a button.",
+        "section": "typography"
+      },
+      {
+        "name": "The Tight Top Rule",
+        "body": "Large grotesk tightens as it grows: -0.035em at display, -0.03em at headline, -0.02em at title. Small uppercase labels open up to 0.14em.",
+        "section": "typography"
+      },
+      {
+        "name": "The Still Intro Rule",
+        "body": "On desktop the intro column never scrolls away. Who Tinh is and how to reach out stay in view while the work moves.",
+        "section": "layout"
+      },
+      {
+        "name": "The Lift on Intent Rule",
+        "body": "Surfaces are flat at rest. The raised color and the row shadow appear together, on hover, at 1024px and up with `(hover: hover)`. Touch layouts never show them.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** keep every color on the charcoal-and-sea-green ramp in the frontmatter; add a step of the same green before adding a hue.",
+      "**Do** use JetBrains Mono with tabular numerals for dates, tags, lap times, and positions, and nowhere else.",
+      "**Do** separate content with 1px Hairline rules and section padding (5rem / 7rem), not containers.",
+      "**Do** keep row hover to the full set: raised surface, row-lift shadow, siblings at 0.55 opacity, desktop hover pointers only.",
+      "**Do** use the single ease-out curve (`cubic-bezier(0.16, 1, 0.3, 1)`) for every transition, and honor reduced motion.",
+      "**Do** keep hit targets at 2.75rem minimum for buttons and social links."
+    ],
+    "donts": [
+      "**Don't** wrap sections or rows in resting cards; the raised surface is a hover state, and the timing sheet is the only bordered container.",
+      "**Don't** number section headings or put a kicker or eyebrow line above them. (Track-order positions P1, P2... are data and stay.)",
+      "**Don't** set text in Deep Sea Green, or in any neutral dimmer than Lichen.",
+      "**Don't** bring back the tabbed sidebar layout or a navy ground borrowed from kav3.",
+      "**Don't** set headings, prose, or buttons in mono.",
+      "**Don't** use icon fonts or glyph characters as icons; icons are inline stroke SVG at 1.75."
+    ]
+  }
+}
