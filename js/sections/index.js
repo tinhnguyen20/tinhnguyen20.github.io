@@ -1,12 +1,8 @@
 import about from "./about.js";
 import experience from "./experience.js";
+import projects from "./projects.js";
 import hobbies from "./hobbies.js";
 
-// Add new sections here — sidebar and routing pick them up automatically.
-export const sections = [about, experience, hobbies];
-
-export const defaultSectionId = sections[0].id;
-
-export function getSection(id) {
-    return sections.find((section) => section.id === id) ?? sections.find((section) => section.id === defaultSectionId);
-}
+// Add new sections here; the nav and the page pick them up automatically.
+// Each section exports { id, label, title?, render() }.
+export const sections = [about, experience, projects, hobbies];
